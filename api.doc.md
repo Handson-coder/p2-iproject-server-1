@@ -648,3 +648,81 @@ _Response (500 - Internal Server Error)_
 ```
 
 ---
+
+### GET /hospital/:slug
+
+_Request Header_
+
+```
+not needed
+```
+
+_Request Body_
+
+```
+not needed
+```
+
+_Request Params_
+
+```
+"EX URL" : "http://localhost:3000/hospital/rsup-dr-sardjito"
+```
+
+
+_Response (200)_
+
+```
+{
+  "name": "RSUP dr Sardjito",
+  "external_id": "ff6b2fed-8813-486a-9a41-949233452910",
+  "canon_slug": "rsup-dr-sardjito",
+  "hospital_type": "Rumah Sakit Umum",
+  "address": "No.1, Jl. Kesehatan, Senolowo, Sinduadi, Kec. Mlati, Kabupaten Sleman, Jogja",
+  "city_name": "Kabupaten Sleman",
+  "district_name": "Mlati",
+  "region_name": "DI Yogyakarta",
+  "main_image": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/655477_3-2-2020_23-41-36.jpg",
+  "other_images": [
+    "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/499304_3-2-2020_23-41-51.jpg"
+  ],
+  "phone_numbers": [
+    "0274631190",
+    "0274587333"
+  ],
+  "longitude": "110.37347420",
+  "latitude": "-7.76861630",
+  "about": "Rumah Sakit Umum Prof dr.Sardjito diresmikan pada tanggal 13 Juni 1974, terletak di daerah Yogyakarta, Kecamatan Mlati. Rumah Sakit Umum Prof dr.Sardjito memiliki Visi menjadi Rumah Sakit pendidikan yang berstandar internasional pada tahun 2019, dengan Misi memberikan pelayanan kesehatan yang prima berstandar internasional dan terjangkau oleh semua lapisan masyarakat, melaksanakan pendidikan dan pelatihan untuk menghasilkan SDM yang berkualitas, menyelenggarakan penelitian dan pengembangan IPTEK yang berwawasan global.",
+  "meta_title": "",
+  "meta_keywords": "Rumah Sakit Umum Dr Sardjito",
+  "meta_description": "",
+  "facilities": [
+    "Unit Perawatan Intensif",
+    "Instalasi Laboratorium",
+    "Farmasi",
+    "Instalasi Rawat Inap",
+    "Instalasi Rawat Jalan"
+  ],
+  "services_available": {
+    "medicine_delivery_flag": false,
+    "appointment_flag": false
+  },
+  "appointment_url": "",
+  "address_map_url_mobile": "https://d1ojs48v3n42tp.cloudfront.net/bintan/prod-provider-location-image/a3e5e2c9-b0d8-4e47-8758-def7474252f7.png",
+  "address_map_url_desktop": "https://d1ojs48v3n42tp.cloudfront.net/bintan/prod-provider-location-image/33f6c832-7ce8-46eb-b88b-61a77686fae0.png",
+  "time_zone": "Asia/Jakarta",
+  "provider_id": "52fa7b19-2d9d-4006-8549-890349b5d9be",
+  "bpjs": false,
+  "new_appointment_flag": false
+}
+```
+
+_Response (500 - Internal Server Error)_
+
+```
+{
+  "message": "Internal Server Error"
+}
+```
+
+---
