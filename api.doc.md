@@ -496,3 +496,155 @@ _Response (500 - Internal Server Error)_
 ```
 
 ---
+
+### GET /doctor/:slug
+
+_Request Header_
+
+```
+not needed
+```
+
+_Request Body_
+
+```
+not needed
+```
+
+_Request Params_
+
+```
+"EX URL" : "http://localhost:3000/doctor/dr-abdullah-basalamah-sp-og"
+```
+
+
+_Response (200)_
+
+```
+{
+  "first_name": "Abdullah",
+  "last_name": "Basalamah,",
+  "full_name": "Abdullah Basalamah,",
+  "pre_salutation": "dr.",
+  "post_salutation": "Sp.OG",
+  "external_id": "4322f18b-ec70-438b-a115-522b02d318ba",
+  "canon_slug": "dr-abdullah-basalamah-sp-og",
+  "type": null,
+  "image_url": "https://d1ojs48v3n42tp.cloudfront.net/personnels/802194_23-2-2021_22-41-39.png",
+  "profile_sections": [
+    {
+      "name": "start_year",
+      "type": "experience",
+      "value": "1994",
+      "identifier": "5303e0a4-f952-483c-9ab9-63cfe61859f7",
+      "display": true,
+      "language": "na"
+    },
+    {
+      "name": "start_month",
+      "type": "experience",
+      "value": "04",
+      "identifier": "5303e0a4-f952-483c-9ab9-63cfe61859f7",
+      "display": true,
+      "language": "na"
+    },
+    {
+      "name": "university_name",
+      "type": "education",
+      "value": "Universitas Indonesia",
+      "identifier": "e42bac7d-59e0-4179-9d75-59da4bedf63c",
+      "display": true,
+      "language": "na"
+    }
+  ],
+  "slug": "dr-abdullah-basalamah-sp-og",
+  "status": "active",
+  "speciality": null,
+  "description": null,
+  "meta_title": null,
+  "meta_keywords": null,
+  "meta_description": null,
+  "appointment_url": null,
+  "provider_locations": [
+    {
+      "medicine_delivery_flag": "0",
+      "address_line": "Jl. Mustikajaya No.9, Mustika Jaya, Kec. Mustika Jaya, Kota Bks, Jawa Barat",
+      "appointment_url": "",
+      "appointment_flag": "2",
+      "new_appointment_flag": true,
+      "name": "RS Permata Bekasi",
+      "external_id": "f5ed0d71-a5e5-4c1b-a6b6-6f7f8856c175",
+      "slug": "rs-permata-bekasi",
+      "image_url": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/759884_27-2-2020_11-9-26.jpg",
+      "time_zone": "Asia/Jakarta",
+      "location": "-6.291081,107.03157",
+      "other_images": [
+        "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/193_27-2-2020_11-9-33.jpg",
+        "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/67124_27-2-2020_11-9-42.jpg",
+        "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/618676_27-2-2020_11-9-49.jpg",
+        "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/319413_27-2-2020_11-9-56.jpg",
+        "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/437484_16-9-2020_13-25-39.jpeg"
+      ],
+      "coupon": null,
+      "phone_numbers": [
+        "0218251919"
+      ],
+      "departments": [
+        {
+          "name": "Poliklinik Kandungan dan Kebidanan",
+          "description": "Spesialis Obstetri dan Ginekologi (Obgyn) adalah cabang ilmu kedokteran yang mempelajari tentang kehamilan dan proses persalinan",
+          "external_id": "8e89ecbc-0368-4f67-8e90-b85eeffa0c15",
+          "image_url": "https://halodoc-sumba.s3-ap-southeast-1.amazonaws.com/Bintan_Department/97e1d588-185b-4271-bbd2-38710c2d6ee5.png",
+          "slug": "kandungan-dan-kebidanan"
+        }
+      ],
+      "payment_config": {
+        "payment_flag": true,
+        "convenience_fee": null,
+        "medical_service_fee": 230000,
+        "consultation_fee_start_price": 230000,
+        "consultation_fee_end_price": 230000
+      },
+      "city_id": "e58a56e5-7d02-469e-b34d-626126be1ebf",
+      "district_id": "000ad05b-ab8d-4a65-89b7-1d813dbf8f79",
+      "region_id": "2da0dca6-baee-4065-9847-de29cd8a7f65",
+      "city": "Bekasi",
+      "district": "Mustika Jaya",
+      "region": "Jawa Barat"
+    }
+  ],
+  "provider_location_departments": null,
+  "specialities": [
+    {
+      "name": "Kebidanan Kandungan",
+      "display_order": 0,
+      "description": "Spesialis Kebidanan & Kandungan atau Spesialis Obstetri & Ginekologi (Obgyn) merupakan spesialis yang berfokus dalam menangani perawatan pada masa kehamilan dan proses persalinan, serta kesehatan sistem reproduksi wanita secara umum",
+      "image_url": "https://d1ojs48v3n42tp.cloudfront.net/specialities/4f160c28-a82d-464c-be6f-fc5249cb85a4.png",
+      "slug": "obstetrics-and-gynecologist",
+      "meta_keywords": null,
+      "thumbnail_url": "https://d1ojs48v3n42tp.cloudfront.net/specialities/356106_25-9-2019_18-48-9.png",
+      "english_name": null,
+      "bahasa_name": null
+    }
+  ],
+  "images": [
+    {
+      "type": "thumbnail",
+      "extension": null,
+      "url": "https://d1ojs48v3n42tp.cloudfront.net/personnels/802194_23-2-2021_22-41-39.png"
+    }
+  ],
+  "rich_text_description": "<html>\n              <head>\n                  <meta charset=\"UTF-8\">\n              </head>\n              <body>\n                <div style=\"font-family: Nunito-Regular, sans-serif;\">\n                <p>dr. Abdullah Basalamah, Sp.OG&nbsp;<span style=\"color: rgb(0, 0, 0);\">adalah seorang Dokter Spesialis Kebidanan Kandungan yang aktif melayani pasien di RS Permata Bekasi. dr. Abdullah Basalamah mendapatkan gelar spesialisnya setelah menamatkan pendidikan di Universitas Indonesia, Depok.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Beliau yang tergabung dalam Ikatan Dokter Indonesia (IDI) dan Perkumpulan Obstetri dan Ginekologi Indonesia (POGI) dapat memberikan layanan konsultasi seputar kebidanan kandungan.</span></p><p><strong style=\"color: rgb(0, 0, 0);\">Kebijakan Pembatalan &amp; Pengembalian Dana:</strong></p><ul><li>Pembatalan janji kunjungan dapat dilakukan melalui aplikasi Halodoc maksimal 24 jam sebelum waktu janji kunjungan anda</li><li>Pengembalian dana dari Gopay dan Halodoc Wallet membutuhkan waktu maksimal 3 hari kerja</li><li>Pengembalian dana dari kartu kredit/ debit membutuhkan waktu 3 hari kerja ditambah waktu proses dari pihak Bank selama maksimal 14 hari kerja</li><li>Jika pengembalian dana belum diterima sesuai batas waktu, silakan hubungi customer service kami melalui tlp 085574677403 atau 02131106999, atau melalui layanan \"chat dengan kami\" di menu bantuan Aplikasi Halodoc.</li></ul>\n                </div>\n              </body>\n            </html>",
+  "mandatory_fields": []  
+}
+```
+
+_Response (500 - Internal Server Error)_
+
+```
+{
+  "message": "Internal Server Error"
+}
+```
+
+---
