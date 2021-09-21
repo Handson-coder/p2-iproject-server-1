@@ -5,8 +5,8 @@ class ControllerMedicine {
   static async listOfMedicineCategories(req, res, next) {
     try {
       const url = `${ROOT_URL}/api/v1/buy-medicine/categories`
-      const category = await axios.get(url)
-      return res.status(200).json(category.data)
+      const result = await axios.get(url)
+      return res.status(200).json(result.data)
     } catch (err) {
       next(err)
     }
@@ -15,10 +15,9 @@ class ControllerMedicine {
   static async detailCategoryOfMedicine(req, res, next) {
     try {
       const url = `${ROOT_URL}/api/v1/buy-medicine/categories/${req.params.slug}/products?page=${req.params.count}&size=20`
-      const category = await axios.get(url)
-      return res.status(200).json(category.data.result)
+      const result = await axios.get(url)
+      return res.status(200).json(result.data.result)
     } catch (err) {
-      res.status(400)
       next(err)
     }
   } // pada saat nekan gambar categorynya
@@ -27,10 +26,9 @@ class ControllerMedicine {
     console.log(req.params.slug);
     try {
       const url = `${ROOT_URL}/api/v1/buy-medicine/products/detail/${req.params.slug}`
-      const category = await axios.get(url)
-      return res.status(200).json(category.data)
+      const result = await axios.get(url)
+      return res.status(200).json(result.data)
     } catch (err) {
-      res.status(400)
       next(err)
     }
   } // utk searching nama obat
@@ -38,10 +36,9 @@ class ControllerMedicine {
   static async similarProductOfMedicineProduct(req, res, next) {
     try {
       const url = `${ROOT_URL}/api/v1/buy-medicine/products/similar-items/${req.params.slug}`
-      const category = await axios.get(url)
-      return res.status(200).json(category.data)
+      const result = await axios.get(url)
+      return res.status(200).json(result.data)
     } catch (err) {
-      res.status(400)
       next(err)
     }
   } //utk option pembantu di colom search website

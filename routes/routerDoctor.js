@@ -3,4 +3,4 @@ const ControllerDoctor = require('../Controllers/ControllerDoctor')
 
 router.get('/:slug', ControllerDoctor.doctorProfile)
 
-module.exports = router 
+module.exports = router
