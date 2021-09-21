@@ -185,7 +185,6 @@ _Request Params_
 not needed
 ```
 
-
 _Response (200)_
 
 ```
@@ -229,7 +228,6 @@ _Response (500 - Internal Server Error)_
 
 ---
 
-
 ### GET /medicine/categories/:slug/page/:count
 
 _Request Header_
@@ -249,7 +247,6 @@ _Request Params_
 ```
 "EX URL" : "http://localhost:3000/medicine/detail/Hi-D-5000-Vitamin-D3-6-Tablet"
 ```
-
 
 _Response (200)_
 
@@ -357,7 +354,6 @@ _Request Params_
 "EX URL" : "http://localhost:3000/medicine/categories/produk-susu/page/1"
 ```
 
-
 _Response (200)_
 
 ```
@@ -437,7 +433,6 @@ _Request Params_
 "EX URL" : "http://localhost:3000/medicine/similar/nutrilon-royal-3-madu-susu-pertumbuhan-bubuk-400-gr"
 ```
 
-
 _Response (200)_
 
 ```
@@ -516,7 +511,6 @@ _Request Params_
 ```
 "EX URL" : "http://localhost:3000/doctor/dr-abdullah-basalamah-sp-og"
 ```
-
 
 _Response (200)_
 
@@ -635,7 +629,7 @@ _Response (200)_
     }
   ],
   "rich_text_description": "<html>\n              <head>\n                  <meta charset=\"UTF-8\">\n              </head>\n              <body>\n                <div style=\"font-family: Nunito-Regular, sans-serif;\">\n                <p>dr. Abdullah Basalamah, Sp.OG&nbsp;<span style=\"color: rgb(0, 0, 0);\">adalah seorang Dokter Spesialis Kebidanan Kandungan yang aktif melayani pasien di RS Permata Bekasi. dr. Abdullah Basalamah mendapatkan gelar spesialisnya setelah menamatkan pendidikan di Universitas Indonesia, Depok.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Beliau yang tergabung dalam Ikatan Dokter Indonesia (IDI) dan Perkumpulan Obstetri dan Ginekologi Indonesia (POGI) dapat memberikan layanan konsultasi seputar kebidanan kandungan.</span></p><p><strong style=\"color: rgb(0, 0, 0);\">Kebijakan Pembatalan &amp; Pengembalian Dana:</strong></p><ul><li>Pembatalan janji kunjungan dapat dilakukan melalui aplikasi Halodoc maksimal 24 jam sebelum waktu janji kunjungan anda</li><li>Pengembalian dana dari Gopay dan Halodoc Wallet membutuhkan waktu maksimal 3 hari kerja</li><li>Pengembalian dana dari kartu kredit/ debit membutuhkan waktu 3 hari kerja ditambah waktu proses dari pihak Bank selama maksimal 14 hari kerja</li><li>Jika pengembalian dana belum diterima sesuai batas waktu, silakan hubungi customer service kami melalui tlp 085574677403 atau 02131106999, atau melalui layanan \"chat dengan kami\" di menu bantuan Aplikasi Halodoc.</li></ul>\n                </div>\n              </body>\n            </html>",
-  "mandatory_fields": []  
+  "mandatory_fields": []
 }
 ```
 
@@ -668,7 +662,6 @@ _Request Params_
 ```
 "EX URL" : "http://localhost:3000/hospital/rsup-dr-sardjito"
 ```
-
 
 _Response (200)_
 
@@ -726,3 +719,123 @@ _Response (500 - Internal Server Error)_
 ```
 
 ---
+
+### GET /hospital
+
+_Request Header_
+
+```
+not needed
+```
+
+_Request Body_
+
+```
+not needed
+```
+
+_Request Params_
+
+```
+not needed
+```
+
+_Response (200)_
+
+```
+[
+  {
+    "name": "RS UMUM DAERAH  DR. ZAINOEL ABIDIN",
+    "address": "JL. TGK DAUD BEUREUEH, NO. 108 B. ACEH",
+    "region": "KOTA BANDA ACEH, ACEH",
+    "phone": "(0651) 34565",
+    "province": "Aceh"
+  },
+  {
+    "name": "RS UMUM DAERAH CUT MEUTIA KAB. ACEH UTARA",
+    "address": "JL. BANDA ACEH-MEDAN KM.6 BUKET RATA LHOKSEUMAWE",
+    "region": "KOTA LHOKSEUMAWE, ACEH",
+    "phone": "(0645) 46334",
+    "province": "Aceh"
+  },
+  ...
+]
+```
+
+_Response (500 - Internal Server Error)_
+
+```
+{
+  "message": "Internal Server Error"
+}
+```
+
+---
+
+### GET /covid19/stats
+
+_Request Header_
+
+```
+not needed
+```
+
+_Request Body_
+
+```
+not needed
+```
+
+_Request Params_
+
+```
+not needed
+```
+
+_Response (200)_
+
+```
+{
+  "type": "country",
+  "name": "Indonesia",
+  "timestamp": 1632096000000,
+  "numbers": {
+    "infected": 4192695,
+    "recovered": 3996125,
+    "fatal": 140634
+  },
+  "regions": [
+    {
+      "type": "province",
+      "name": "DKI Jakarta",
+      "numbers": {
+        "infected": 855119,
+        "recovered": 838286,
+        "fatal": 13465
+      }
+    },
+    {
+      "type": "province",
+      "name": "Jawa Barat",
+      "numbers": {
+        "infected": 699185,
+        "recovered": 678519,
+        "fatal": 14491
+      }
+    },
+    ...
+  ]
+}
+```
+
+_Response (500 - Internal Server Error)_
+
+```
+{
+  "message": "Internal Server Error"
+}
+```
+
+---
+
+
