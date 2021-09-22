@@ -6,6 +6,7 @@
 
 -[x] HaloDoc https://www.halodoc.com
 -[x] Covid19 https://dekontaminasi.com/api/id/covid19/stats
+-[x] HospitalIndonesiaAPI https://dekontaminasi.com/api/id/covid19/hospitals
 
 ## Fitur
 
@@ -844,6 +845,58 @@ _Response (200)_
   "bpjs": false,
   "new_appointment_flag": false
 }
+```
+
+_Response (500 - Internal Server Error)_
+
+```
+{
+  "message": "Internal Server Error"
+}
+```
+
+---
+
+### GET /api
+
+_Request Header_
+
+```
+not needed
+```
+
+_Request Body_
+
+```
+not needed
+```
+
+_Request Params_
+
+```
+not needed
+```
+
+_Response (200)_
+
+```
+[
+  {
+    "name": "RS UMUM DAERAH  DR. ZAINOEL ABIDIN",
+    "address": "JL. TGK DAUD BEUREUEH, NO. 108 B. ACEH",
+    "region": "KOTA BANDA ACEH, ACEH",
+    "phone": "(0651) 34565",
+    "province": "Aceh"
+  },
+  {
+    "name": "RS UMUM DAERAH CUT MEUTIA KAB. ACEH UTARA",
+    "address": "JL. BANDA ACEH-MEDAN KM.6 BUKET RATA LHOKSEUMAWE",
+    "region": "KOTA LHOKSEUMAWE, ACEH",
+    "phone": "(0645) 46334",
+    "province": "Aceh"
+  },
+  ...
+]
 ```
 
 _Response (500 - Internal Server Error)_
