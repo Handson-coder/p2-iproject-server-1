@@ -1,13 +1,41 @@
-# My Movie App Server
-
-My Movie App is an application to show movies. This app has :
-
-- RESTful endpoint for asset's CRUD operation
-- JSON formatted response
+# Individual Project
 
 &nbsp;
 
-## RESTful endpoints
+## API
+
+-[x] HaloDoc https://www.halodoc.com
+-[x] Covid19 https://dekontaminasi.com/api/id/covid19/stats
+
+## Fitur
+
+-[x] Nodemailer https://nodemailer.com/about/
+-[x] socket Io https://socket.io/
+
+## NPM Package
+- [x] express
+- [x] pg
+- [x] sequelize
+- [x] jwt
+- [x] bcrypt
+- [x] google-auth-library (server side)
+- [x] dotenv (dev dependency)
+- [x] multer
+- [x] cors
+- [x] form-data
+- [x] axios
+- [x] socket.io
+- [x] nodemailer
+- [x] vue-socket.io-extended
+- [x] vue-google-login https://www.npmjs.com/package/vue-google-login
+- [x] vue-sweetalert2
+- [x] vue-hacktiv8-footer
+
+
+## Features
+
+### Documentation
+- [x] Write API Documentation
 
 ### Post /register
 
@@ -165,7 +193,53 @@ _Response (500 - Internal Server Error)_
 
 ---
 
-### GET /medicine/categories
+### GET /provinces
+
+_Request Header_
+
+```
+not needed
+```
+
+_Request Body_
+
+```
+not needed
+```
+
+_Request Params_
+
+```
+not needed
+```
+
+_Response (200)_
+
+```
+[
+  {
+    "id": 1,
+    "name": "Aceh"
+  },
+  {
+    "id": 2,
+    "name": "Bali"
+  },
+  ...
+]
+```
+
+_Response (500 - Internal Server Error)_
+
+```
+{
+  "message": "Internal Server Error"
+}
+```
+
+---
+
+### GET /medicines/categories
 
 _Request Header_
 
@@ -228,7 +302,7 @@ _Response (500 - Internal Server Error)_
 
 ---
 
-### GET /medicine/categories/:slug/page/:count
+### GET /medicines/categories/:slug/page/:count
 
 _Request Header_
 
@@ -334,7 +408,7 @@ _Response (500 - Internal Server Error)_
 
 ---
 
-### GET /medicine/categories/:slug/page/:count
+### GET /medicines/categories/:slug/page/:count
 
 _Request Header_
 
@@ -413,7 +487,7 @@ _Response (500 - Internal Server Error)_
 
 ---
 
-### GET /medicine/categories/:slug/page/:count
+### GET /medicines/categories/:slug/page/:count
 
 _Request Header_
 
@@ -492,7 +566,7 @@ _Response (500 - Internal Server Error)_
 
 ---
 
-### GET /doctor/:slug
+### GET /doctors/:slug
 
 _Request Header_
 
@@ -643,7 +717,69 @@ _Response (500 - Internal Server Error)_
 
 ---
 
-### GET /hospital/:slug
+### GET /doctors
+
+_Request Header_
+
+```
+not needed
+```
+
+_Request Body_
+
+```
+not needed
+```
+
+_Request Params_
+
+```
+not needed
+```
+
+_Response (200)_
+
+```
+[
+  {
+    "id": 1,
+    "full_name": "Arika Husnayanti,",
+    "slug": "dr-arika-husnayanti-sp-og",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/personnels/617242_31-3-2021_15-3-45.jpeg",
+    "city": "Kabupaten Pidie",
+    "district": "Pidie",
+    "provider_locations": "RS Citra Husada Pidie Aceh",
+    "specialities": "Kebidanan Kandungan",
+    "pre_salutation": "dr.",
+    "post_salutation": "Sp.OG"
+  },
+  {
+    "id": 2,
+    "full_name": "Dian Febrina,",
+    "slug": "dr-dian-febrina-sp-og",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/personnels/181086_3-9-2020_18-18-12.png",
+    "city": "Kota Pekanbaru",
+    "district": "Tampan",
+    "provider_locations": "RS Aulia Pekanbaru",
+    "specialities": "Kebidanan Kandungan",
+    "pre_salutation": "dr.",
+    "post_salutation": "Sp.OG"
+  },
+  ...
+]
+```
+
+_Response (500 - Internal Server Error)_
+
+```
+{
+  "message": "Internal Server Error"
+}
+```
+
+---
+
+### GET /hospitals/:slug
 
 _Request Header_
 
@@ -720,7 +856,7 @@ _Response (500 - Internal Server Error)_
 
 ---
 
-### GET /hospital
+### GET /hospitals
 
 _Request Header_
 
@@ -745,18 +881,24 @@ _Response (200)_
 ```
 [
   {
+    "id": 1,
     "name": "RS UMUM DAERAH  DR. ZAINOEL ABIDIN",
     "address": "JL. TGK DAUD BEUREUEH, NO. 108 B. ACEH",
     "region": "KOTA BANDA ACEH, ACEH",
-    "phone": "(0651) 34565",
-    "province": "Aceh"
+    "province": "Aceh",
+    "slug": "rsud-dr-zainoel-abidin-aceh",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/606116_4-3-2020_18-38-54.jpg",
+    "provinceId": 1
   },
   {
-    "name": "RS UMUM DAERAH CUT MEUTIA KAB. ACEH UTARA",
-    "address": "JL. BANDA ACEH-MEDAN KM.6 BUKET RATA LHOKSEUMAWE",
-    "region": "KOTA LHOKSEUMAWE, ACEH",
-    "phone": "(0645) 46334",
-    "province": "Aceh"
+    "id": 2,
+    "name": "RS CUT MEUTIA MEDIKA NUSANTARA",
+    "address": "JL. GARUDA NO. 1 KEL. KEBON BARU KOTA LANGSA RT/RW 00 KOTA LANGSA , NANGGROE ACEH DARUSSALAM",
+    "region": "KOTA LANGSA, ACEH",
+    "province": "Aceh",
+    "slug": "rs-cut-meutia-medika-nusantara",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/423261_16-3-2020_15-46-8.jpg",
+    "provinceId": 1
   },
   ...
 ]
