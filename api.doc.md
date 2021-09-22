@@ -40,7 +40,7 @@
 ### Documentation
 - [x] Write API Documentation
 
-### Post /register
+### Post /users/register
 
 _Request Header_
 
@@ -61,8 +61,6 @@ _Request Body_
   "username": "<string not required>",
   "email": "<string required>",
   "password": "<string required>",
-  "phoneNumber": "<string not required>",
-  "address": "<string not required>"
 }
 ```
 
@@ -70,8 +68,8 @@ _Response (201 - created)_
 
 ```
 {
-  "id": 1,
-  "email": "hansen@mail.com"
+  "id": 2,
+  "email": "customer@mail.com"
 }
 ```
 
@@ -80,7 +78,7 @@ _Response (400 - Bad Request)_
 ```
 {
   "message": [
-    "hansen@mail.com already registered",
+    "customer@mail.com already registered",
     "Must be email format",
     "Email is required",
     "Password is required",
@@ -99,7 +97,7 @@ _Response (500 - Internal Server Error)_
 
 ---
 
-### Post /login
+### Post /users/login
 
 _Request Header_
 
@@ -126,11 +124,11 @@ _Response (200 - success)_
 
 ```
 {
-  "id": 1,
-  "username": "Handson",
-  "email": "hansen@mail.com",
-  "role": "admin",
-  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJoYW5zZW5AbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2MzEwMTQyMzl9.H1Fg3tEpj5SXKFNpBTHLBKm2ToGjHE6Upm_bskQyfjk"
+  "id": 2,
+  "username": "Customer",
+  "email": "customer@mail.com",
+  "role": "Customer",
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJjdXN0b21lckBtYWlsLmNvbSIsInJvbGUiOiJDdXN0b21lciIsImlhdCI6MTYzMjM0MjY5NX0.Wr5G-Vwf8TyRbJqSlhij7YAhaPc4ef5d_mKo9hW3rE8"
 }
 ```
 
@@ -139,6 +137,55 @@ _Response (401 - Unauthorized)_
 ```
 {
   "message": "Email/Password is wrong"
+}
+```
+
+_Response (500 - Internal Server Error)_
+
+```
+{
+  "message": "Internal Server Error"
+}
+```
+
+---
+
+### Get /users
+
+_Request Header_
+
+```
+"access_token": "<access_token>"
+```
+
+_Request Params_
+
+```
+not needed
+```
+
+_Request Body_
+
+```
+not needed
+```
+
+_Response (200 - success)_
+
+```
+{
+  "id": 2,
+  "username": "Customer",
+  "email": "customer@mail.com",
+  "role": "Customer"
+}
+```
+
+_Response (401 - Unauthorized)_
+
+```
+{
+  "message": "Invalid Token"
 }
 ```
 

@@ -1,5 +1,5 @@
 const { User } = require('../models')
-const { signToken } = require('../helpers/jwt')
+const { signToken, verifyToken } = require('../helpers/jwt')
 const { checkPassword } = require('../helpers/bcryptjs')
 const { OAuth2Client } = require('google-auth-library')
 const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID)
@@ -59,6 +59,18 @@ class ControllerUser {
 				})
 				res.status(200).json({ id: user.id, username: user.username, role: user.role, email: user.email, access_token })
 			}
+		} catch (err) {
+			next(err)
+		}
+	}
+
+	static async userLoginned(req, res, next) {
+		const { id } = req.user
+		try {
+			const access_token = req.headers.access_token
+			const payload = verifyToken(access_token)
+			const { email, role } = payload
+			res.status(200).json({ id, username:req.user.username, email, role })
 		} catch (err) {
 			next(err)
 		}

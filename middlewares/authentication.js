@@ -13,8 +13,6 @@ async function authentication(req, res, next) {
                     username: user.username,
                     email: user.email,
                     role: user.role,
-                    phoneNumber: user.phoneNumber,
-                    address: user.address,
                 }
                 next()
             } else {
