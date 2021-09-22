@@ -14,15 +14,78 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   Doctor.init({
-    full_name: DataTypes.STRING,
-    slug: DataTypes.STRING,
-    images: DataTypes.STRING,
-    city: DataTypes.STRING,
-    district: DataTypes.STRING,
-    provider_locations: DataTypes.STRING,
-    specialities: DataTypes.STRING,
-    pre_salutation: DataTypes.STRING,
-    post_salutation: DataTypes.STRING
+    full_name: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate : {
+        notEmpty: { msg: 'Full Name is required'},
+        notNull: { msg: 'Full Name is required'}
+      }
+    },
+    slug: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate : {
+        notEmpty: { msg: 'Slug is required'},
+        notNull: { msg: 'Slug is required'}
+      }
+    },
+    images: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate : {
+        notEmpty: { msg: 'Images is required'},
+        notNull: { msg: 'Images is required'}
+      }
+    },
+    city: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate : {
+        notEmpty: { msg: 'Title is required'},
+        notNull: { msg: 'Title is required'}
+      }
+    },
+    district: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate : {
+        notEmpty: { msg: 'District is required'},
+        notNull: { msg: 'District is required'}
+      }
+    },
+    provider_locations: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate : {
+        notEmpty: { msg: 'Provider Location is required'},
+        notNull: { msg: 'Provider Location is required'}
+      }
+    },
+    specialities: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate : {
+        notEmpty: { msg: 'Specialities is required'},
+        notNull: { msg: 'Specialities is required'}
+      }
+    },
+    pre_salutation: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate : {
+        notEmpty: { msg: 'Pre Salutation is required'},
+        notNull: { msg: 'Pre Salutation is required'}
+      }
+    },
+    post_salutation: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate : {
+        notEmpty: { msg: 'Post Salutation is required'},
+        notNull: { msg: 'Post Salutation is required'}
+      }
+    },
   }, {
     sequelize,
     modelName: 'Doctor',
