@@ -42,8 +42,8 @@ class ControllerHospital {
 			if (page || size) {
 				possibilityQuery.limit = limit
 				possibilityQuery.offset = offset
-				if (possibilityQuery.limit > 15) {
-					possibilityQuery.limit = 15
+				if (possibilityQuery.limit > 8) {
+					possibilityQuery.limit = 8
 				}
 				const response = await Hospital.findAndCountAll(possibilityQuery)
 				result = getPagingData(response, page, limit)
