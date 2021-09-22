@@ -8,7 +8,8 @@
     "city": "Kabupaten Pidie",
     "district": "Pidie",
     "specialities": "Kebidanan Kandungan",
-    "provider_locations": "RS Citra Husada Pidie Aceh"
+    "provider_locations": "RS Citra Husada Pidie Aceh",
+    "SpecialistId": 1
   },
   {
     "full_name": "Dian Febrina,",
@@ -19,7 +20,8 @@
     "city": "Kota Pekanbaru",
     "district": "Tampan",
     "specialities": "Kebidanan Kandungan",
-    "provider_locations": "RS Aulia Pekanbaru"
+    "provider_locations": "RS Aulia Pekanbaru",
+    "SpecialistId": 1
   },
   {
     "full_name": "Marwan Indamirsah,",
@@ -30,7 +32,8 @@
     "provider_locations": "RS Sufina Aziz",
     "specialities": "Kebidanan Kandungan",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.OG"
+    "post_salutation": "Sp.OG",
+    "SpecialistId": 1
   },
   {
     "full_name": "Abdul Hadi,",
@@ -41,7 +44,8 @@
     "provider_locations": "RS Sufina Aziz",
     "specialities": "Kebidanan Kandungan",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.OG"
+    "post_salutation": "Sp.OG",
+    "SpecialistId": 1
   },
   {
     "full_name": "James Lazzaroni,",
@@ -52,7 +56,8 @@
     "provider_locations":"RS Cahaya Ujung Tanjung",
     "specialities": "Kebidanan Kandungan",
     "pre_salutation": "dr.",
-    "post_salutation": "M.Ked (OG)., Sp.OG"
+    "post_salutation": "M.Ked (OG)., Sp.OG",
+    "SpecialistId": 1
   },
   {
     "full_name": "Rita Evalina,",
@@ -63,7 +68,8 @@
     "provider_locations":"RS Sufina Aziz",
     "specialities": "Anak",
     "pre_salutation": "dr.",
-    "post_salutation": "M.Ked (Ped)., Sp.A (K)"
+    "post_salutation": "M.Ked (Ped)., Sp.A (K)",
+    "SpecialistId": 2
   },
   {
     "full_name": "Dika Amalia,",
@@ -74,7 +80,8 @@
     "provider_locations": "RS Prima Inti Medika",
     "specialities": "Anak",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.A"
+    "post_salutation": "Sp.A",
+    "SpecialistId": 2
   },
   {
     "full_name": "Ajeng Probowati,",
@@ -85,7 +92,8 @@
     "provider_locations": "RSIA Zainab",
     "specialities": "Anak",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.A"
+    "post_salutation": "Sp.A",
+    "SpecialistId": 2
   },
   {
     "full_name": "Eka Intan Fitriana,",
@@ -96,7 +104,8 @@
     "provider_locations": "RS Charitas Palembang",
     "specialities": "Anak",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.A (K)"
+    "post_salutation": "Sp.A (K)",
+    "SpecialistId": 2
   },
   {
     "full_name": "Dimple Gobind Nagrani,",
@@ -107,7 +116,8 @@
     "provider_locations": "RSIA Bunda Jakarta",
     "specialities": "Anak",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.A"
+    "post_salutation": "Sp.A",
+    "SpecialistId": 2
   },
   {
     "full_name": "Winda Permata Bastian,",
@@ -118,7 +128,8 @@
     "provider_locations": "RSIA Bunda Citra Ananda",
     "specialities": "Penyakit Dalam",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.PD"
+    "post_salutation": "Sp.PD",
+    "SpecialistId": 3
   },
   {
     "full_name": "Khalid Mohammad Shidiq,",
@@ -129,7 +140,8 @@
     "provider_locations": "RS Sari Asih Karawaci",
     "specialities": "Penyakit Dalam",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.PD"
+    "post_salutation": "Sp.PD",
+    "SpecialistId": 3
   },
   {
     "full_name": "Rose Vita Sari,",
@@ -140,7 +152,8 @@
     "provider_locations": "RS Mitra Keluarga Gading Serpong",
     "specialities": "Penyakit Dalam",
     "pre_salutation": "dr.",
-    "post_salutation": "M.Biomed, Sp.PD"
+    "post_salutation": "M.Biomed, Sp.PD",
+    "SpecialistId": 3
   },
   {
     "full_name": "Brinna Anindita,",
@@ -151,7 +164,8 @@
     "provider_locations": "RSIA Mitra Husada Sidoarjo",
     "specialities": "Penyakit Dalam",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.PD"
+    "post_salutation": "Sp.PD",
+    "SpecialistId": 3
   },
   {
     "full_name": "Ferica Valentine Kuhuwael,",
@@ -162,7 +176,8 @@
     "provider_locations": "Siloam Hospitals Kebon Jeruk",
     "specialities": "Penyakit Dalam",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.PD"
+    "post_salutation": "Sp.PD",
+    "SpecialistId": 3
   },
   {
     "full_name": "Cut Arsy Rahmi,",
@@ -173,7 +188,8 @@
     "provider_locations": "RS Sari Asih Karawaci",
     "specialities": "Jantung dan Pembuluh Darah",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.JP"
+    "post_salutation": "Sp.JP",
+    "SpecialistId": 4
   },
   {
     "full_name": "Bona Dwiramajaya Hartoyo,",
@@ -184,7 +200,8 @@
     "provider_locations": "RS Mitra Keluarga Cibubur",
     "specialities": "Jantung dan Pembuluh Darah",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.JP"
+    "post_salutation": "Sp.JP",
+    "SpecialistId": 4
   },
   {
     "full_name": "Bona Dwiramajaya Hartoyo,",
@@ -195,7 +212,8 @@
     "provider_locations": "RS Mitra Keluarga Cibubur",
     "specialities": "Jantung dan Pembuluh Darah",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.JP"
+    "post_salutation": "Sp.JP",
+    "SpecialistId": 4
   },
   {
     "full_name": "Hengkie Frankie Lasanudin,",
@@ -206,7 +224,8 @@
     "provider_locations": "RS Mayapada Jakarta Selatan",
     "specialities": "Jantung dan Pembuluh Darah",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.JP(K), FIHA"
+    "post_salutation": "Sp.JP(K), FIHA",
+    "SpecialistId": 4
   },
   {
     "full_name": "Riesma Viovica Sari,",
@@ -217,7 +236,8 @@
     "provider_locations": "RS Sari Asih Ciputat",
     "specialities": "Jantung dan Pembuluh Darah",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.JP"
+    "post_salutation": "Sp.JP",
+    "SpecialistId": 4
   },
   {
     "full_name": "Ahmad Sulaiman Alwahdy,",
@@ -228,7 +248,8 @@
     "provider_locations": "RS Brawijaya Depok",
     "specialities": "Saraf",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.N, FINA"
+    "post_salutation": "Sp.N, FINA",
+    "SpecialistId": 5
   },
   {
     "full_name": "Dina Meliana,",
@@ -239,7 +260,8 @@
     "provider_locations": "Siloam Hospitals TB Simatupang",
     "specialities": "Saraf",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.S"
+    "post_salutation": "Sp.S",
+    "SpecialistId": 5
   },
   {
     "full_name": "Irca Ahyar,",
@@ -250,7 +272,8 @@
     "provider_locations": "RS Jakarta",
     "specialities": "Saraf",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.S., CFIDN"
+    "post_salutation": "Sp.S., CFIDN",
+    "SpecialistId": 5
   },
   {
     "full_name": "Lia Angelin Adriana,",
@@ -261,7 +284,8 @@
     "provider_locations": "RS St Elisabeth Semarang",
     "specialities": "Saraf",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.S"
+    "post_salutation": "Sp.S",
+    "SpecialistId": 5
   },
   {
     "full_name": "Raden Ajeng Dwi Pujiastuti,",
@@ -272,7 +296,8 @@
     "provider_locations": "Columbia Asia Hospital Medan",
     "specialities": "Saraf",
     "pre_salutation": "dr.",
-    "post_salutation": "M.Ked(N)., Sp.S"
+    "post_salutation": "M.Ked(N)., Sp.S",
+    "SpecialistId": 5
   },
   {
     "full_name": "Lucia Nirmalasari,",
@@ -283,7 +308,8 @@
     "provider_locations": "RS Omni Alam Sutera",
     "specialities": "Bedah",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.B., FICS"
+    "post_salutation": "Sp.B., FICS",
+    "SpecialistId": 6
   },
   {
     "full_name": "Asrafi Rizki Gatam,",
@@ -294,7 +320,8 @@
     "provider_locations": "RSU Pusat Fatmawati",
     "specialities": "Bedah",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.OT"
+    "post_salutation": "Sp.OT",
+    "SpecialistId": 6
   },
   {
     "full_name": "Damiarta,",
@@ -305,7 +332,8 @@
     "provider_locations": "RS Mayapada Kuningan",
     "specialities": "Bedah",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.OT"
+    "post_salutation": "Sp.OT",
+    "SpecialistId": 6
   },
   {
     "full_name": "Budi Pratama Arnofyan,",
@@ -316,7 +344,8 @@
     "provider_locations": "RS Bunda BMC Padang",
     "specialities": "Bedah",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.B (K) BA"
+    "post_salutation": "Sp.B (K) BA",
+    "SpecialistId": 6
   },
   {
     "full_name": "Bayu Irvia Satria,",
@@ -327,7 +356,8 @@
     "provider_locations": "RS Sufina Aziz",
     "specialities": "Bedah",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.B"
+    "post_salutation": "Sp.B",
+    "SpecialistId": 6
   }
 ]
 

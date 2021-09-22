@@ -1047,4 +1047,49 @@ _Response (500 - Internal Server Error)_
 
 ---
 
+### GET /specialists
+
+_Request Header_
+
+```
+not needed
+```
+
+_Request Body_
+
+```
+not needed
+```
+
+_Request Params_
+
+```
+not needed
+```
+
+_Response (200)_
+
+```
+[
+  {
+    "id": 1,
+    "name": "Kebidanan Kandungan"
+  },
+  {
+    "id": 2,
+    "name": "Anak"
+  },
+  ...
+]
+```
+
+_Response (500 - Internal Server Error)_
+
+```
+{
+  "message": "Internal Server Error"
+}
+```
+
+---
 
