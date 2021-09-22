@@ -1,42 +1,28 @@
 'use strict';
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('Hospitals', {
+    await queryInterface.createTable('Contracts', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      name: {
-        allowNull: false,
-        type: Sequelize.STRING
-      },
-      address: {
-        allowNull: false,
-        type: Sequelize.STRING
-      },
-      region: {
-        allowNull: false,
-        type: Sequelize.STRING
-      },
-      province: {
-        allowNull: false,
-        type: Sequelize.STRING
-      },
-      slug: {
-        allowNull: false,
-        type: Sequelize.STRING
-      },
-      images: {
-        allowNull: false,
-        type: Sequelize.STRING
-      },
-      provinceId: {
+      UserId: {
         allowNull: false,
         type: Sequelize.INTEGER,
         references: {
-          model: 'Provinces',
+          model: 'Users',
+          key: 'id'
+        },
+        onUpdate: 'cascade',
+        onDelete: 'cascade'
+      },
+      DoctorId: {
+        allowNull: false,
+        type: Sequelize.INTEGER,
+        references: {
+          model: 'Doctors',
           key: 'id'
         },
         onUpdate: 'cascade',
@@ -53,6 +39,6 @@ module.exports = {
     });
   },
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('Hospitals');
+    await queryInterface.dropTable('Contracts');
   }
 };

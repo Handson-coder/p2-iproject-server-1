@@ -4,7 +4,7 @@
     "address": "JL. TGK DAUD BEUREUEH, NO. 108 B. ACEH",
     "region": "KOTA BANDA ACEH, ACEH",
     "province": "Aceh",
-    "canon_slug": "rsud-dr-zainoel-abidin-aceh",
+    "slug": "rsud-dr-zainoel-abidin-aceh",
     "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/606116_4-3-2020_18-38-54.jpg",
     "provinceId": 1
   },
@@ -13,7 +13,7 @@
     "address": "JL. GARUDA NO. 1 KEL. KEBON BARU KOTA LANGSA RT/RW 00 KOTA LANGSA , NANGGROE ACEH DARUSSALAM",
     "region": "KOTA LANGSA, ACEH",
     "province": "Aceh",
-    "canon_slug": "rs-cut-meutia-medika-nusantara",
+    "slug": "rs-cut-meutia-medika-nusantara",
     "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/423261_16-3-2020_15-46-8.jpg",
     "provinceId": 1
   },
@@ -914,7 +914,8 @@
     "region": "KOTA PALU, SULAWESI TENGAH",
     "province": "Sulawesi Tengah",
     "slug": "rsud-undata",
-    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/37685_3-3-2020_18-55-45.jpg"
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/37685_3-3-2020_18-55-45.jpg",
+    "provinceId": 29
   },
   {
     "name": "RS UMUM ANUTAPURA PALU",
