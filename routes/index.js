@@ -6,6 +6,7 @@ const routerHospitalAPI = require('./routerHospitalAPI')
 const routerCovid = require('./routerCovid')
 const routerProvince = require('./routerProvince')
 const routerUser = require('./routerUser')
+const errorHandler = require('../middlewares/errorHandler')
 
 router.use('/medicines', routerMedicine)
 router.use('/doctors', routerDoctor)
@@ -14,5 +15,7 @@ router.use('/api', routerHospitalAPI)
 router.use('/covid19/stats', routerCovid)
 router.use('/provinces', routerProvince)
 router.use('/users', routerUser)
+
+router.use(errorHandler)
 
 module.exports = router

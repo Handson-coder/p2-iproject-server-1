@@ -16,7 +16,11 @@ class ControllerMedicine {
 		try {
 			const url = `${ROOT_URL}/api/v1/buy-medicine/categories/${req.params.slug}/products?page=${req.params.count}&size=20`
 			const result = await axios.get(url)
-			return res.status(200).json(result.data.result)
+			if(result.data.result) {
+				return res.status(200).json(result.data.result)
+			} else {
+				throw ({ name: 'Data Not Found'})
+			}
 		} catch (err) {
 			next(err)
 		}

@@ -9,7 +9,7 @@ class ControllerUser {
 	static async register(req, res, next) {
 		const { username, email, password } = req.body
 		try {
-			const result = await User.create({ username, email, password })
+			const result = await User.create({ username, email, password, role: 'Customer' })
 			res.status(201).json({ id: result.id, email: result.email })
 		} catch (err) {
 			next(err)
@@ -31,13 +31,11 @@ class ControllerUser {
 				}
 			}
 		} catch (err) {
-			console.log(err);
 			next(err)
 		}
 	}
 
 	static async googleAuthLogin(req, res, next) {
-		// console.log('masuk sini');
 		try {
 			const ticket = await client.verifyIdToken({
 				idToken: req.body.idToken,
@@ -50,7 +48,7 @@ class ControllerUser {
 					username: name,
 					email,
 					password: email,
-					role: "customer",
+					role: "Customer",
 				}
 			})
 			if (user) {
@@ -62,8 +60,6 @@ class ControllerUser {
 				res.status(200).json({ id: user.id, username: user.username, role: user.role, email: user.email, access_token })
 			}
 		} catch (err) {
-			// console.log('masuk err');
-			// console.log(err);
 			next(err)
 		}
 	}

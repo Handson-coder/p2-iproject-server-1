@@ -55,11 +55,6 @@ class ControllerHospital {
 					name: "There's no data is equal like your filter that you've submited"
 				})
 			}
-			// const result = await Hospital.findAll({
-			// 	attributes: {
-			// 		exclude: ['createdAt', 'updatedAt']
-			// 	}
-			// })
 		} catch (err) {
 			next(err)
 		}

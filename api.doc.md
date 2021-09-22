@@ -27,9 +27,11 @@
 - [x] axios
 - [x] socket.io
 - [x] nodemailer
+- [x] daisyUI
 - [x] vue-socket.io-extended
 - [x] vue-google-login https://www.npmjs.com/package/vue-google-login
 - [x] vue-sweetalert2
+- [x] vue-add-tailwind
 - [x] vue-hacktiv8-footer
 
 
@@ -932,29 +934,41 @@ not needed
 _Response (200)_
 
 ```
-[
-  {
-    "id": 1,
-    "name": "RS UMUM DAERAH  DR. ZAINOEL ABIDIN",
-    "address": "JL. TGK DAUD BEUREUEH, NO. 108 B. ACEH",
-    "region": "KOTA BANDA ACEH, ACEH",
-    "province": "Aceh",
-    "slug": "rsud-dr-zainoel-abidin-aceh",
-    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/606116_4-3-2020_18-38-54.jpg",
-    "provinceId": 1
-  },
-  {
-    "id": 2,
-    "name": "RS CUT MEUTIA MEDIKA NUSANTARA",
-    "address": "JL. GARUDA NO. 1 KEL. KEBON BARU KOTA LANGSA RT/RW 00 KOTA LANGSA , NANGGROE ACEH DARUSSALAM",
-    "region": "KOTA LANGSA, ACEH",
-    "province": "Aceh",
-    "slug": "rs-cut-meutia-medika-nusantara",
-    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/423261_16-3-2020_15-46-8.jpg",
-    "provinceId": 1
-  },
-  ...
-]
+{
+  "totalItems": 2,
+  "movies": [
+    {
+      "id": 1,
+      "name": "RS UMUM DAERAH  DR. ZAINOEL ABIDIN",
+      "address": "JL. TGK DAUD BEUREUEH, NO. 108 B. ACEH",
+      "region": "KOTA BANDA ACEH, ACEH",
+      "province": "Aceh",
+      "slug": "rsud-dr-zainoel-abidin-aceh",
+      "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/606116_4-3-2020_18-38-54.jpg",
+      "provinceId": 1,
+      "Province": {
+        "id": 1,
+        "name": "Aceh"
+      }
+    },
+    {
+      "id": 2,
+      "name": "RS CUT MEUTIA MEDIKA NUSANTARA",
+      "address": "JL. GARUDA NO. 1 KEL. KEBON BARU KOTA LANGSA RT/RW 00 KOTA LANGSA , NANGGROE ACEH DARUSSALAM",
+      "region": "KOTA LANGSA, ACEH",
+      "province": "Aceh",
+      "slug": "rs-cut-meutia-medika-nusantara",
+      "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/423261_16-3-2020_15-46-8.jpg",
+      "provinceId": 1,
+      "Province": {
+        "id": 1,
+        "name": "Aceh"
+      }
+    }
+  ],
+  "totalPages": 1,
+  "currentPage": 1
+}
 ```
 
 _Response (500 - Internal Server Error)_
