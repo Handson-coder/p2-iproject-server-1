@@ -1,0 +1,1081 @@
+[
+  {
+    "name": "RS UMUM DAERAH  DR. ZAINOEL ABIDIN",
+    "address": "JL. TGK DAUD BEUREUEH, NO. 108 B. ACEH",
+    "region": "KOTA BANDA ACEH, ACEH",
+    "province": "Aceh",
+    "canon_slug": "rsud-dr-zainoel-abidin-aceh",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/606116_4-3-2020_18-38-54.jpg",
+    "provinceId": 1
+  },
+  {
+    "name": "RS CUT MEUTIA MEDIKA NUSANTARA",
+    "address": "JL. GARUDA NO. 1 KEL. KEBON BARU KOTA LANGSA RT/RW 00 KOTA LANGSA , NANGGROE ACEH DARUSSALAM",
+    "region": "KOTA LANGSA, ACEH",
+    "province": "Aceh",
+    "canon_slug": "rs-cut-meutia-medika-nusantara",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/423261_16-3-2020_15-46-8.jpg",
+    "provinceId": 1
+  },
+  {
+    "name": "RSUP SANGLAH",
+    "address": "JL. DIPONEGORO DENPASAR BALI",
+    "region": "KOTA DENPASAR, BALI",
+    "province": "Bali",
+    "slug": "rsup-sanglah",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/303280_3-3-2020_1-27-46.jpg",
+    "provinceId": 2
+  },
+  {
+    "name": "RS UMUM DAERAH KAB. BULELENG",
+    "address": "JL. NGURAH RAI 30 SINGARAJA",
+    "region": "BULELENG, BALI",
+    "province": "Bali",
+    "slug": "rsud-kabupaten-buleleng",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/393800_3-3-2020_10-21-23.jpg",
+    "provinceId": 2
+  },
+  {
+    "name": "RS UMUM DAERAH SANJIWANI GIANYAR",
+    "address": "JL. CIUNG WENARA NO.2 GIANYAR",
+    "region": "GIANYAR, BALI",
+    "province": "Bali",
+    "slug": "rsud-sanjiwani-gianyar",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/319610_3-3-2020_2-57-34.jpg",
+    "provinceId": 2
+  },
+  {
+    "name": "RS UMUM DAERAH TABANAN",
+    "address": "JL. PAHLAWAN NO. 14 TABANAN",
+    "region": "TABANAN, BALI",
+    "province": "Bali",
+    "slug": "rsud-tabanan",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/319610_3-3-2020_2-57-34.jpg",
+    "provinceId": 2
+  },
+  {
+    "name": "RS UMUM DAERAH DR. DRAJAT PRAWIRANEGARA",
+    "address": "JL. TGK DAUD BEUREUEH, NO. 108 B. ACEH",
+    "region": "TANGERANG, BANTEN",
+    "province": "Banten",
+    "slug": "rsud-dr-dradjat-prawiranegara-serang",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/3981_3-3-2020_15-55-24.jpg",
+    "provinceId": 3
+  },
+  {
+    "name": "RS UMUM DAERAH DR. M. YUNUS BENGKULU",
+    "address": "JL. BHAYANGKARA, SIDOMULYO, KEC. GADING CEMP., KOTA BENGKULU, BENGKULU 38211",
+    "region": "KOTA BENGKULU, BENGKULU",
+    "province": "Bengkulu",
+    "slug": "rsud-dr-m-yunus-bengkulu",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/114280_4-3-2020_17-41-47.jpg",
+    "provinceId": 4
+  },
+  {
+    "name": "RS UMUM DAERAH ARGA MAKMUR",
+    "address": "JL. SITI KHODIJAH NO.8, KALI, ARMA JAYA, KABUPATEN BENGKULU UTARA, BENGKULU 38611",
+    "region": "BENGKULU UTARA, BENGKULU",
+    "province": "Bengkulu",
+    "slug": "rsud-arga-makmur-bengkulu",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/325728_4-3-2020_18-14-8.jpg",
+    "provinceId": 4
+  },
+  {
+    "name": "RS UMUM DAERAH HASANUDDIN DAMRAH MANNA",
+    "address": "JL. RAYA PADANG PANJANG, PAGAR DEWA, KOTA MANNA, KABUPATEN BENGKULU SELATAN, BENGKULU 38515",
+    "region": "BENGKULU SELATAN, BENGKULU",
+    "province": "Bengkulu",
+    "slug": "rsud-hasanuddin-damrah-manna-bengkulu",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/287608_4-3-2020_17-57-13.jpg",
+    "provinceId": 4
+  },
+  {
+    "name": "RS UMUM DAERAH PANEMBAHAN SENOPATI",
+    "address": "JL DR. WAHIDIN SUDIRO HUSODO BANTUL",
+    "region": "BANTUL, DAERAH ISTIMEWA YOGYAKARTA",
+    "province": "DI Yogyakarta",
+    "slug": "rsud-panembahan-senopati",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/183735_4-2-2020_1-13-24.jpg",
+    "provinceId": 5
+  },
+  {
+    "name": "RS UMUM DAERAH WATES",
+    "address": "JL TENTARA PELAJAR KM.1 NO.5 WATES KULON PROGO",
+    "region": "KULON PROGO, DAERAH ISTIMEWA YOGYAKARTA",
+    "province": "DI Yogyakarta",
+    "slug": "rsud-wates",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/36597_4-3-2020_11-45-3.jpg",
+    "provinceId": 5
+  },
+  {
+    "name": "RS UMUM DAERAH KOTA YOGYAKARTA",
+    "address": "JL. KI AGENG PEMANAHAN NO.1, SOROSUTAN, KEC. UMBULHARJO, KOTA YOGYAKARTA, DAERAH ISTIMEWA YOGYAKARTA 55162",
+    "region": "KOTA YOGYAKARTA, DAERAH ISTIMEWA YOGYAKARTA",
+    "province": "DI Yogyakarta",
+    "slug": "rsud-kota-yogyakarta",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/682543_12-3-2020_15-47-10.png",
+    "provinceId": 5
+  },
+  {
+    "name": "RSUP DR. SARDJITO",
+    "address": "JL KESEHATAN NO.1 SEKIP YOGYAKARTA",
+    "region": "SLEMAN, DAERAH ISTIMEWA YOGYAKARTA",
+    "province": "DI Yogyakarta",
+    "slug": "rsup-dr-sardjito",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/499304_3-2-2020_23-41-51.jpg",
+    "provinceId": 5
+  },
+  {
+    "name": "RS UMUM PAD GATOT SOEBROTO",
+    "address": "JL. DR. ABDUL  RAHMAN SALEH NO. 24  JAKARTA PUSAT",
+    "region": "JAKARTA PUSAT, DKI JAKARTA",
+    "province": "DKI Jakarta",
+    "slug": "rspad-gatot-soebroto",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/105396_3-3-2020_11-3-24.jpg",
+    "provinceId": 6
+  },
+  {
+    "name": "RS UMUM BHAYANGKARA TK. I R.SAID SUKANTO",
+    "address": "JL. RAYA BOGOR KRAMAT JATI,JAKARTA TIMUR",
+    "region": "JAKARTA TIMUR, DKI JAKARTA",
+    "province": "DKI Jakarta",
+    "slug": "rs-bhayangkara-tk-i-r-said-sukanto",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/735751_18-1-2020_13-42-32.jpg",
+    "provinceId": 6
+  },
+  {
+    "name": "RSUP PERSAHABATAN",
+    "address": "JL. PERSAHABATAN RAYA NO. 1,JAKTIM",
+    "region": "JAKARTA TIMUR, DKI JAKARTA",
+    "province": "DKI Jakarta",
+    "slug": "rsup-persahabatan",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/488408_20-5-2019_14-25-23.jpg",
+    "provinceId": 6
+  },
+  {
+    "name": "RS PENYAKIT INFEKSI PROF. DR. SULIANTI SAROSO",
+    "address": "JL. BARU SUNTER PERMAI RAYA JAKARTA UTARA",
+    "region": "JAKARTA UTARA, DKI JAKARTA",
+    "province": "DKI Jakarta",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/136800_3-3-2020_11-13-6.jpg",
+    "slug": "rspi-prof-dr-sulianti-saroso",
+    "provinceId": 6
+  },
+  {
+    "name": "RSUP FATMAWATI",
+    "address": "JL. RS FATMAWATI CILANDAK,JAKSEL",
+    "region": "JAKARTA SELATAN, DKI JAKARTA",
+    "province": "DKI Jakarta",
+    "slug": "rsu-pusat-fatmawati",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/645541_10-9-2019_11-40-38.jpg",
+    "provinceId": 6
+  },
+  {
+    "name": "RS UMUM DAERAH PASAR MINGGU",
+    "address": "JL. TB. SIMATUPANG NO. 1 KELURAHAN RAGUNAN, KECAMATAN PASAR MINGGU - JAKARTA SELATAN",
+    "region": "JAKARTA SELATAN, DKI JAKARTA",
+    "province": "DKI Jakarta",
+    "slug": "rsud-pasar-minggu",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/492688_12-3-2020_14-53-35.jpg",
+    "provinceId": 6
+  },
+  {
+    "name": "RS UMUM DAERAH CENGKARENG",
+    "address": "JL.KAMAL RAYA BUMI CENGKARENG INDAH CENGKARENG TIMUR",
+    "region": "JAKARTA BARAT, DKI JAKARTA",
+    "province": "DKI Jakarta",
+    "slug": "rsud-cengkareng",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/311206_16-5-2019_10-41-55.jpg",
+    "provinceId": 6
+  },
+  {
+    "name": "RS UMUM DAERAH PROF DR. H. ALOEI SABOE",
+    "address": "JL. PROFESOR DR. H. ALOEI SABOE, WONGKADITI, KOTA UTARA, KOTA GORONTALO, GORONTALO 96115",
+    "region": "GORONTALO, GORONTALO",
+    "province": "Gorontalo",
+    "slug": "rsud-prof-dr-h-aloei-saboe",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/80883_4-3-2020_15-54-12.jpg",
+    "provinceId": 7
+  },
+  {
+    "name": "RS UMUM DAERAH RADEN MATTAHER JAMBI",
+    "address": "JL. LETJEN SUPRAPTO NO.31, TELANAIPURA, KEC. TELANAIPURA, KOTA JAMBI, JAMBI 36361",
+    "region": "MUARO JAMBI, JAMBI",
+    "province": "Jambi",
+    "slug": "rsud-raden-mattaher-jambi",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/22219_3-3-2020_12-7-30.jpg",
+    "provinceId": 8
+  },
+  {
+    "name": "RS PARU DR. H. A. ROTINSULU",
+    "address": "JL. BUKIT JARIAN NO. 40 BANDUNG",
+    "region": "BANDUNG, JAWA BARAT",
+    "province": "Jawa Barat",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/547954_21-2-2020_16-14-47.png",
+    "slug" : "rs-paru-dr-h-a-rotinsulu-bandung",
+    "provinceId": 9
+  },
+  {
+    "name": "RS UMUM PUSAT DR. HASAN SADIKIN",
+    "address": "JL. PASTEUR NO. 38 BANDUNG",
+    "region": "BANDUNG, JAWA BARAT",
+    "province": "Jawa Barat",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/5755_11-2-2020_13-49-49.jpg",
+    "slug": "rs-hasan-sadikin-bandung",
+    "provinceId": 9
+  },
+  {
+    "name": "RS UMUM DAERAH DR. SLAMET GARUT",
+    "address": "JL. RUMAH SAKIT NO.12 GARUT",
+    "region": "GARUT, JAWA BARAT",
+    "province": "Jawa Barat",
+    "slug": "rs-dr-slamet-garut",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/385744_3-3-2020_16-31-25.jpg",
+    "provinceId": 9
+  },
+  {
+    "name": "RS PARU DR. M. GOENAWAN PARTOWIDIGDO",
+    "address": "JL. RAYA PUNCAK KM.83, PO BOX 28 CISARUA BOGOR 16750",
+    "region": "BOGOR, JAWA BARAT",
+    "province": "Jawa Barat",
+    "slug": "rs-paru-goenawan-partowidigdo",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/294926_4-3-2020_16-28-21.jpg",
+    "provinceId": 9
+  },
+  {
+    "name": "RS UMUM DAERAH  R SYAMSUDIN SH",
+    "address": "JL. RUMAH SAKIT NO. 1 KOTA SUKABUMI",
+    "region": "SUKABUMI, JAWA BARAT",
+    "province": "Jawa Barat",
+    "slug": "rsud-r-syamsudin-sh-kota-sukabumi",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/309994_3-3-2020_14-36-6.jpg",
+    "provinceId": 9
+  },
+  {
+    "name": "RS UMUM DAERAH GUNUNG JATI",
+    "address": "JL. KESAMBI NO.56 CIREBON - 45134",
+    "region": "CIREBON, JAWA BARAT",
+    "province": "Jawa Barat",
+    "slug": "rsud-gunung-jati-cirebon",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/243276_3-3-2020_11-51-43.jpg",
+    "provinceId": 9
+  },
+  {
+    "name": "RS MM INDRAMAYU",
+    "address": "JL. LET JENDRAL SUPRAPTO, KEPANDEAN",
+    "region": "INDRAMAYU, JAWA BARAT",
+    "province": "Jawa Barat",
+    "slug": "rs-mm-indramayu",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/455998_28-4-2020_14-6-53.jpeg",
+    "provinceId": 9
+  },
+  {
+    "name": "RS UMUM DAERAH K.R.M.T WONGSONEGORO",
+    "address": "JL. FATMAWATI RAYA NO.1",
+    "region": "SEMARANG, JAWA TENGAH",
+    "province": "Jawa Tengah",
+    "slug": "rsud-krmt-wongsonegoro-semarang",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/440795_5-2-2020_8-3-17.jpg",
+    "provinceId": 10
+  },
+  {
+    "name": "RS UMUM PUSAT DR. KARIADI",
+    "address": "JL. DR. SOETOMO NO.16,SEMARANG",
+    "region": "SEMARANG, JAWA TENGAH",
+    "province": "Jawa Tengah",
+    "slug": "rsup-dr-kariadi-semarang",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/553818_3-3-2020_17-24-23.jpg",
+    "provinceId": 10
+  },
+  {
+    "name": "RS UMUM DAERAH KARDINAH",
+    "address": "JALAN AIP JL. KS. TUBUN NO.2, KEJAMBON, KEC. TEGAL TIM., KOTA TEGAL, JAWA TENGAH 52124",
+    "region": "TEGAL, JAWA TENGAH",
+    "province": "Jawa Tengah",
+    "slug": "rsud-kardinah",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/82928_4-3-2020_13-20-2.jpg",
+    "provinceId": 10
+  },
+  {
+    "name": "RS UMUM PUSAT DR. SOERADJI TIRTONEGORO",
+    "address": "JL. KRT. SURAJI TIRTONEGORO NO.1, KLATEN",
+    "region": "KLATEN, JAWA TENGAH",
+    "province": "Jawa Tengah",
+    "slug": "rsup-dr-soeradji-tirtonegoro-klaten",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/573909_3-3-2020_14-24-34.jpg",
+    "provinceId": 10
+  },
+  {
+    "name": "RS UMUM DAERAH DR. LOEKMONO HADI",
+    "address": "JL. DR. LUKMONOHADI NO.19,KUDUS",
+    "region": "KUDUS, JAWA TENGAH",
+    "province": "Jawa Tengah",
+    "slug": "rsud-loekmono-hadi-kudus",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/39217_3-2-2020_15-27-46.jpg",
+    "provinceId": 10
+  },
+  {
+    "name": "RS UMUM DAERAH DR. SOESELO SLAWI KABUPATEN TEGAL",
+    "address": "JL. DR. SOETOMO NO.63, SLAWI KULON, KEC. SLAWI, TEGAL, JAWA TENGAH 52419",
+    "region": "TEGAL, JAWA TENGAH",
+    "province": "Jawa Tengah",
+    "slug": "rsud-dr-soeselo",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/79016_3-3-2020_17-17-24.jpg",
+    "provinceId": 10
+  },
+  {
+    "name": "RS HERMINA PEKALONGAN",
+    "address": "JL. JEND. SUDIRMAN NO. 16a PODOSUGIH",
+    "region": "KOTA PEKALONGAN, JAWA TENGAH",
+    "province": "Jawa Tengah",
+    "slug": "rs-hermina-pekalongan",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/808985_17-7-2020_18-52-29.jpeg",
+    "provinceId": 10
+  },
+  {
+    "name": "RS UMUM DAERAH  DR. H. SOEWONDO KENDAL",
+    "address": "JL. LAUT NO. 21, KENDAL",
+    "region": "KENDAL, JAWA TENGAH",
+    "province": "Jawa Tengah",
+    "slug": "rsud-dr-h-soewondo-kendal",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/530982_3-3-2020_23-18-56.jpg",
+    "provinceId": 10
+  },
+  {
+    "name": "RS UMUM DAERAH DR. MOEWARDI SURAKARTA",
+    "address": "JL. KOL SUTARTO 132,SURAKARTA",
+    "region": "KOTA SURAKARTA, JAWA TENGAH",
+    "province": "Jawa Tengah",
+    "slug": "rsud-dr-moewardi-surakarta",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/581358_5-2-2020_8-20-7.jpg",
+    "provinceId": 10
+  },
+  {
+    "name": "RS UMUM DAERAH TIDAR",
+    "address": "JL. TIDAR NO.30 A, KOTA MAGELANG",
+    "region": "MAGELANG, JAWA TENGAH",
+    "province": "Jawa Tengah",
+    "slug": "rsud-tidar",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/507638_3-3-2020_13-7-28.jpg",
+    "provinceId": 10
+  },
+  {
+    "name": "RSUD BANYUMAS",
+    "address": "JL. RUMAH SAKIT NO.1 BANYUMAS",
+    "region": "BANYUMAS, JAWA TENGAH",
+    "province": "Jawa Tengah",
+    "slug": "rsud-banyumas",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/723119_3-3-2020_17-18-41.jpg",
+    "provinceId": 10
+  },
+  {
+    "name": "RS PARU DR. ARIO WIRAWAN",
+    "address": "JL. HASANUDIN NO.806,SALATIGA",
+    "region": "KOTA SALATIGA, JAWA TENGAH",
+    "province": "Jawa Tengah",
+    "slug": "rs-paru-dr-ario-wirawan",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/19056_4-3-2020_12-4-42.jpg",
+    "provinceId": 10
+  },
+  {
+    "name": "RS UMUM DAERAH PROF DR. MARGONO SOEKARJO PURWOKERTO",
+    "address": "JL. DR GUMBREG NO. 1 PURWOKERTO",
+    "region": "BANYUMAS, JAWA TENGAH",
+    "province": "Jawa Tengah",
+    "slug": "rsud-prof-dr-margono-soekarjo-purwokerto",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/865078_3-3-2020_17-49-15.jpg",
+    "provinceId": 10
+  },
+  {
+    "name": "RS UNIVERSITAS AIRLANGGA",
+    "address": "KAMPUS C UNIVERSITAS AIRLANGGA, MULYOREJO, SURABAYA",
+    "region": "KOTA SURABAYA, JAWA TIMUR",
+    "province": "Jawa Timur",
+    "slug": "rs-universitas-airlangga",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/166581_2-4-2020_16-33-23.jpeg",
+    "provinceId": 11
+  },
+  {
+    "name": "RS UMUM DAERAH DR. SOETOMO",
+    "address": "JL. MAYJEND. PROF. DR. MOESTOPO NO. 6 - 8 SURABAYA, JAWA TIMUR",
+    "region": "KOTA SURABAYA, JAWA TIMUR",
+    "province": "Jawa Timur",
+    "slug": "rsud-dr-soetomo",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/859724_3-3-2020_16-18-50.jpg",
+    "provinceId": 11
+  },
+  {
+    "name": "RS UMUM DAERAH DR. SOEDONO MADIUN",
+    "address": "JL. DR. SOETOMO 59, MADIUN",
+    "region": "KOTA MADIUN, JAWA TIMUR",
+    "province": "Jawa Timur",
+    "slug": "rsud-dr-soedono-madiun",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/686963_24-1-2020_14-39-10.jpg",
+    "provinceId": 11
+  },
+  {
+    "name": "RS UMUM DAERAH DR. SAIFUL ANWAR",
+    "address": "JL. JAKSA AGUNG SUPRAPTO NO.2 MALANG",
+    "region": "MALANG, JAWA TIMUR",
+    "province": "Jawa Timur",
+    "slug": "rsud-dr-saiful-anwar",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/747395_3-3-2020_4-31-38.jpg",
+    "provinceId": 11
+  },
+  {
+    "name": "RS UMUM DAERAH DR. R. KOESMA TUBAN",
+    "address": "JL. DR. WAHIDIN SUDIRO HUSODO NO. 800",
+    "region": "TUBAN, JAWA TIMUR",
+    "province": "Jawa Timur",
+    "slug": "rsud-dr-r-koesma-tuban",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/883125_3-3-2020_10-47-26.jpg",
+    "provinceId": 11
+  },
+  {
+    "name": "RS UMUM DAERAH DR. ISKAK TULUNGAGUNG",
+    "address": "JL. DR. WAHIDIN SUDIRO HUSODO TULUNGAGUNG",
+    "region": "TULUNGAGUNG, JAWA TIMUR",
+    "province": "Jawa Timur",
+    "slug": "rsud-dr-iskak-tulungagung-1",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/426082_3-3-2020_10-53-9.jpg",
+    "provinceId": 11
+  },
+  {
+    "name": "RS DKT SIDOARJO",
+    "address": "JALAN DR. SOETOMO NO. 2 SIDOARJO",
+    "region": "SIDOARJO, JAWA TIMUR",
+    "province": "Jawa Timur",
+    "slug": "rs-dkt-sidoarjo",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/517401_18-8-2020_16-34-37.jpeg",
+    "provinceId": 11
+  },
+  {
+    "name": "RS UMUM DAERAH BLAMBANGAN",
+    "address": "JL. LETKOL ISTIQLAH NO. 49 BANYUWANGI",
+    "region": "BANYUWANGI, JAWA TIMUR",
+    "province": "Jawa Timur",
+    "slug": "rsud-blambangan-banyuwangi",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/440003_3-3-2020_0-17-40.jpg",
+    "provinceId": 11
+  },
+  {
+    "name": "RS UMUM DAERAH DR. SOEBANDI",
+    "address": "JL. DR. SOEBANDI NO.124, JEMBER",
+    "region": "JEMBER, JAWA TIMUR",
+    "province": "Jawa Timur",
+    "slug": "rsud-dr-soebandi-jember",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/857696_3-3-2020_2-30-59.jpg",
+    "provinceId": 11
+  },
+  {
+    "name": "RS UMUM DAERAH KABUPATEN KEDIRI",
+    "address": "JL. PAHLAWAN KUSUMA BANGSA NO. 1 PARE",
+    "region": "KEDIRI, JAWA TIMUR",
+    "province": "Jawa Timur",
+    "slug": "rsud-kabupaten-kediri-pare",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/181089_3-3-2020_0-49-32.png",
+    "provinceId": 11
+  },
+  {
+    "name": "RS UMUM DAERAH DR. R. SOSODORO DJATIKOESOEMO",
+    "address": "JL. VETERAN NO 36, BOJONEGORO",
+    "region": "BOJONEGORO, JAWA TIMUR",
+    "province": "Jawa Timur",
+    "slug": "rsud-dr-r-sosodoro-djatikoesoemo-bojonegoro",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/270403_4-3-2020_18-18-46.jpg",
+    "provinceId": 11
+  },
+  {
+    "name": "RS UMUM DAERAH DR. SOEDARSO PONTIANAK",
+    "address": "JL. DR. SOEDARSO NO.1 PONTIANAK",
+    "region": "KOTA PONTIANAK, KALIMANTAN BARAT",
+    "province": "Kalimantan Barat",
+    "slug": "rsud-dr-soedarso",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/157705_4-3-2020_10-20-47.jpg",
+    "provinceId": 12
+  },
+  {
+    "name": "RS UMUM DAERAH ADE MUHAMMAD DJOEN SINTANG",
+    "address": "JL. PATIMURA DAN JL.YC OEVANG OERAY SINTANG",
+    "region": "SINTANG, KALIMANTAN BARAT",
+    "province": "Kalimantan Barat",
+    "slug": "rsud-ade-mohammad-djoen-sintang",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/215592_4-3-2020_11-37-23.jpg",
+    "provinceId": 12
+  },
+  {
+    "name": "RS UMUM DAERAH DR. AGOESDJAM KETAPANG",
+    "address": "JL. PANJAITAN NO.51 KETAPANG",
+    "region": "KETAPANG, KALIMANTAN BARAT",
+    "province": "Kalimantan Barat",
+    "slug": "rsud-dr-agoesdjam-ketapang",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/202046_4-3-2020_11-52-46.jpg",
+    "provinceId": 12
+  },
+  {
+    "name": "RS UMUM DAERAH DR. ABDUL AZIZ SINGKAWANG",
+    "address": "JL. DR SOETOMO NO. 28, SINGKAWANG",
+    "region": "KOTA SINGKAWANG, KALIMANTAN BARAT",
+    "province": "Kalimantan Barat",
+    "slug": "rsud-dr-abdul-aziz",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/207889_4-3-2020_10-48-22.jpg",
+    "provinceId": 12 
+  },
+  {
+    "name": "RS UMUM DAERAH H. BOEJASIN PELAIHARI",
+    "address": "JL. HADJI BOEJASIN NO.68 KAB. TANAH LAUT",
+    "region": "TANAH LAUT, KALIMANTAN SELATAN",
+    "province": "Kalimantan Selatan",
+    "slug": "rsud-h-boejasin-pelaihari",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/249146_12-3-2020_17-48-22.jpg",
+    "provinceId": 13
+  },
+  {
+    "name": "RS UMUM DAERAH DR DORIS SYLVANUS PALANGKARAYA",
+    "address": "JL. TAMBUN BUNGAI NO.4 PALANGKARAYA",
+    "region": "MURUNG RAYA, KALIMANTAN TENGAH",
+    "province": "Kalimantan Tengah",
+    "slug": "rsud-dr-doris-sylvanus-palangkaraya",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/796640_4-3-2020_14-27-26.jpg",
+    "provinceId": 14
+  },
+  {
+    "name": "RS UMUM DAERAH SULTAN IMANUDDIN",
+    "address": "JL. SUTAN SYAHRIR NO 17 PANGKALAN BUN",
+    "region": "KOTAWARINGIN BARAT, KALIMANTAN TENGAH",
+    "province": "Kalimantan Tengah",
+    "slug": "rsud-sultan-imanuddin-pangkalan-bun",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/104678_4-3-2020_12-44-51.jpg",
+    "provinceId": 14
+  },
+  {
+    "name": "RS UMUM DAERAH DR MURJANI SAMPIT",
+    "address": "JL. H M ARSYAD NO. 65 SAMPIT",
+    "region": "BARITO TIMUR, KALIMANTAN TENGAH",
+    "province": "Kalimantan Tengah",
+    "slug": "rsud-dr-murjani-sampit",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/775675_4-3-2020_15-20-9.jpg",
+    "provinceId": 14
+  },
+  {
+    "name": "RS UMUM DAERAH ABDUL WAHAB SJAHRANIE",
+    "address": "JL. PALANG MERAH NO.1, SIDODADI, KEC. SAMARINDA ULU, KOTA SAMARINDA, KALIMANTAN TIMUR 75123",
+    "region": "KOTA SAMARINDA, KALIMANTAN TIMUR",
+    "province": "Kalimantan Timur",
+    "slug": "rsud-abdoel-wahab-sjahranie-samarinda",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/304866_4-3-2020_17-9-24.jpg",
+    "provinceId": 15
+  },
+  {
+    "name": "RS UMUM DAERAH TAMAN HUSADA",
+    "address": "JL. LETJEN S. PARMAN NO.1, BELIMBING, BONTANG BAR., KOTA BONTANG, KALIMANTAN TIMUR 75331",
+    "region": "KOTA BONTANG, KALIMANTAN TIMUR",
+    "province": "Kalimantan Timur",
+    "slug": "rsud-taman-husada-bontang",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/128715_4-3-2020_17-4-27.jpg",
+    "provinceId": 15
+  },
+  {
+    "name": "RS UMUM DAERAH DR. KANUJOSO DJATIWIBOWO",
+    "address": "JL. M.T. HARYONO RING ROAD BALIKPAPAN NO.656",
+    "region": "KOTA BALIKPAPAN, KALIMANTAN TIMUR",
+    "province": "Kalimantan Timur",
+    "slug": "rsud-dr-kanujoso-djatiwibowo",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/14120_4-3-2020_18-46-5.jpg",
+    "provinceId": 15
+  },
+  {
+    "name": "RS UMUM DAERAH AJI MUHAMMAD PARIKESIT",
+    "address": "JL. RATU AGUNG NO. 1 TENGGARONG SEBERANG",
+    "region": "KUTAI KARTANEGARA, KALIMANTAN TIMUR",
+    "province": "Kalimantan Timur",
+    "slug": "rsud-aji-muhammad-parikesit",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/204334_4-3-2020_16-49-46.jpg",
+    "provinceId": 15
+  },
+  {
+      "name": "RS UMUM DAERAH PANGLIMA SEBAYA",
+      "address": "JL. KUSUMA BANGSA KM.5 TANAH GROGOT",
+      "region": "PASER, KALIMANTAN TIMUR",
+      "province": "Kalimantan Timur",
+      "slug": "rsud-panglima-sebaya",
+      "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/343226_4-3-2020_11-59-19.jpg",
+      "provinceId": 15
+  },
+  {
+    "name": "RS UMUM DAERAH TANJUNG SELOR",
+    "address": "JL CENDRAWASIH KEL TANJUNG SELOR HILIR, KEC TANJUNG SELOR KAB BULUNGAN",
+    "region": "BULUNGAN, KALIMANTAN UTARA",
+    "province": "Kalimantan Utara",
+    "slug": "rsud-dr-h-soemarno-sosroatmojo-tanjung-selor",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/320124_4-3-2020_16-31-16.jpg",
+    "provinceId": 16
+  },
+  {
+    "name": "RS UMUM DAERAH DEPATI HAMZAH",
+    "address": "JL. SOEKARNO HATTA, BUKITBESAR, KEC. GIRIMAYA, KOTA PANGKAL PINANG, KEPULAUAN BANGKA BELITUNG 33684",
+    "region": "KOTA PANGKALPINANG, KEPULAUAN BANGKA BELITUNG",
+    "province": "Kep. Bangka Belitung",
+    "slug": "rsud-depati-hamzah",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/487327_13-3-2020_13-55-32.jpg",
+    "provinceId": 17
+  },
+  {
+    "name": "RS UMUM DAERAH DR. H. MARSIDI JUDONO",
+    "address": "JL. JEND. SUDIRMAN KM.5,5, AIK RAYAK, TJ. PANDAN, KABUPATEN BELITUNG, KEPULAUAN BANGKA BELITUNG 33411",
+    "region": "BELITUNG, KEPULAUAN BANGKA BELITUNG",
+    "province": "Kep. Bangka Belitung",
+    "slug": "rsud-dr-h-marsidi-judono",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/135885_12-3-2020_14-19-39.jpg",
+    "provinceId": 17
+  },
+  {
+      "name": "RS OTORITA BATAM",
+    "address": "JL. DR. CIPTO MANGUNKUSUMO NO.1,  SEKUPANG,BATAM",
+    "region": "KOTA BATAM, KEPULAUAN RIAU",
+    "province": "Kep. Riau",
+    "slug": "rs-otorita-batam",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/416256_4-3-2020_18-53-29.jpg",
+    "provinceId": 18
+  },
+  {
+    "name": "RS UMUM DAERAH EMBUNG FATIMAH KOTA BATAM",
+    "address": "JL. LETJEND SUPRAPTO NO.1-9, BUKIT TEMPAYAN, KEC. BATU AJI, KOTA BATAM, KEPULAUAN RIAU 29425",
+    "region": "KOTA BATAM, KEPULAUAN RIAU",
+    "province": "Kep. Riau",
+    "slug": "rsud-embung-fatimah-kota-batam",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/124289_4-3-2020_14-12-58.jpg",
+    "provinceId": 18
+  },
+  {
+    "name": "RS UMUM DAERAH MUHAMMAD SANI KABUPATEN KARIMUN",
+    "address": "JALAN POROS NO.1, HARJOSARI, TEBING, KABUPATEN KARIMUN, KEPULAUAN RIAU 29663",
+    "region": "KARIMUN, KEPULAUAN RIAU",
+    "province": "Kep. Riau",
+    "slug": "rsud-muhammad-sani-karimun",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/216633_4-3-2020_16-37-52.jpg",
+    "provinceId": 18
+  },
+  {
+    "name": "RS UMUM DAERAH DR H ABDUL MOELOEK",
+    "address": "JL. DR. RIVAI NO.6, PENENGAHAN, KEC. TJ. KARANG PUSAT, KOTA BANDAR LAMPUNG, LAMPUNG 35112",
+    "region": "KOTA BANDAR LAMPUNG, LAMPUNG",
+    "province": "Lampung",
+    "slug": "rsud-dr-h-abdul-moeloek",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/662043_2-3-2020_20-30-50.jpg",
+    "provinceId": 19
+  },
+  {
+    "name": "RS UMUM DAERAH AHMAD YANI METRO",
+    "address": "JL.JEND. A.YANI NO.13 KOTA METRO",
+    "region": "KOTA METRO, LAMPUNG",
+    "province": "Lampung",
+    "slug": "rsud-ahmad-yani",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/57797_2-3-2020_21-52-34.jpg",
+    "provinceId": 19
+  },
+  {
+    "name": "RS UMUM DAERAH MAY JEN HM RYACUDU",
+    "address": "JL. JEND. SUDIRMAN NO.24, KOTA GAPURA, KOTABUMI, KABUPATEN LAMPUNG UTARA, LAMPUNG 34511",
+    "region": "LAMPUNG UTARA, LAMPUNG",
+    "province": "Lampung",
+    "slug": "rsud-mayjend-hm-ryacudu",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/88304_2-3-2020_21-26-51.jpg",
+    "provinceId": 19
+  },
+  {
+    "name": "RS UMUM DAERAH DR. H. BOB BAZAR, SKM",
+    "address": "JL. LETTU ROHANI NO.14 B, KEDATON, KEC. KALIANDA, KABUPATEN LAMPUNG SELATAN, LAMPUNG 35551",
+    "region": "LAMPUNG SELATAN, LAMPUNG",
+    "province": "Lampung",
+    "slug": "rsud-dr-h-bob-bazar-skm",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/444927_2-3-2020_21-7-27.jpg",
+    "provinceId": 19
+  },
+  {
+    "name": "RS UMUM PUSAT DR. J. LEIMENA",
+    "address": "JALAN R. SUPRAPTO NO.123, RUMAH TIGA, TLK. AMBON, KOTA AMBON, MALUKU",
+    "region": "KOTA AMBON, MALUKU",
+    "province": "Maluku",
+    "slug": "rsup-dr-johannes-leimena-ambon",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/193971_4-3-2020_13-56-41.jpg",
+    "provinceId": 20
+  },
+  {
+    "name": "RS UMUM DR. M. HAULUSSY AMBON",
+    "address": "JL. DR. KAYADOE, BENTENG, NUSANIWE, KEL BENTENG, NUSANIWE, KOTA AMBON, MALUKU",
+    "region": "KOTA AMBON, MALUKU",
+    "province": "Maluku",
+    "slug": "rsud-dr-m-haulussy-ambon",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/76538_13-3-2020_15-29-56.jpg",
+    "provinceId": 20
+  },
+  {
+    "name": "RS UMUM DAERAH DR. P. P. MAGRETTI SAUMLAKI",
+    "address": "JL. MR. LATUHARHARI - SAUMLAKI",
+    "region": "MALUKU TENGGARA BARAT, MALUKU",
+    "province": "Maluku",
+    "slug": "rsud-dr-p-p-magretti-saumlaki",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/160000_27-3-2020_13-30-45.jpg",
+    "provinceId": 20
+  },
+  {
+    "name": "RS UMUM DAERAH DR. H. CHASAN BOESOIRIE TERNATE",
+    "address": "JL. CEMPAKA, TANAH TINGGI BAR., TERNATE SEL., KOTA TERNATE, MALUKU UTARA",
+    "region": "KOTA TERNATE, MALUKU UTARA",
+    "province": "Maluku Utara",
+    "slug": "rsud-dr-h-chasan-boesoirie",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/389302_13-3-2020_15-27-59.jpg",
+    "provinceId": 21
+  },
+  {
+    "name": "RS UMUM DAERAH DR. R. SOEDJONO SELONG",
+    "address": "JL. PROF M. YAMIN, SH. NO. 55 SELONG",
+    "region": "LOMBOK TIMUR, NUSA TENGGARA BARAT",
+    "province": "Nusa Tenggara Barat",
+    "slug": "rsud-dr-r-soedjono-selong",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/300182_13-3-2020_15-31-0.jpg",
+    "provinceId": 22
+  },
+  {
+    "name": "RSUD KOTA BIMA",
+    "address": "Jl. Datuk Dibanta, Jatiwangi, Asakota,",
+    "region": "BIMA, NUSA TENGGARA BARAT",
+    "province": "Nusa Tenggara Barat",
+    "slug": "rsud-kota-bima",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/176319_13-3-2020_15-33-11.jpg",
+    "provinceId": 22
+  },
+  {
+    "name": "RS H. L. MANAMBAI ABDULKADIR",
+    "address": "JL. LINTAS SUMBAWA-BIMA KM 5, SEKETENG, KEC. SUMBAWA, KABUPATEN SUMBAWA, NUSA TENGGARA BAR. 84316",
+    "region": "SUMBAWA, NUSA TENGGARA BARAT",
+    "province": "Nusa Tenggara Barat",
+    "slug": "rs-h-l-manambai-abdulkadir",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/639494_12-3-2020_17-27-6.jpg",
+    "provinceId": 22
+  },
+  {
+    "name": "RS UMUM DAERAH DR TC HILLERS MAUMERE",
+    "address": "JL WAIRKLAU, NO. 1, 86113, KOTA BARU, ALOK TIM., KABUPATEN SIKKA, NUSA TENGGARA TIM.",
+    "region": "SIKKA, NUSA TENGGARA TIMUR",
+    "province": "Nusa Tenggara Timur",
+    "slug": "rsud-dr-t-c-hillers-maumere",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/623574_4-3-2020_17-28-23.jpg",
+    "provinceId": 23
+  },
+  {
+    "name": "RS UMUM DAERAH KOMODO",
+    "address": "DESA GOLO BILAS, KECAMATAN KOMODO, KABUPATEN MANGGARAI BARAT, NTT",
+    "region": "MANGGARAI BARAT, NUSA TENGGARA TIMUR",
+    "province": "Nusa Tenggara Timur",
+    "slug": "rsud-komodo-labuan-bajo",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/120408_4-3-2020_18-14-33.png",
+    "provinceId": 23
+  },
+  {
+    "name": "RS UMUM JAYAPURA",
+    "address": "JL. KESEHATAN NO.1, DOK II, BAYANGKARA, JAYAPURA UTARA, KOTA JAYAPURA, PAPUA",
+    "region": "JAYAPURA, PAPUA",
+    "province": "Papua",
+    "slug": "rsud-jayapura",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/379563_12-6-2020_15-13-7.jpeg",
+    "provinceId": 24
+  },
+  {
+    "name": "RS UMUM NABIRE",
+    "address": "JL. R.E. MARTADINATA, SIRIWINI, KEC. NABIRE, KABUPATEN NABIRE, PAPUA 98816",
+    "region": "NABIRE, PAPUA",
+    "province": "Papua",
+    "slug": "rsud-nabire",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/650479_13-3-2020_16-28-23.jpg",
+    "provinceId": 24
+  },
+  {
+    "name": "RS UMUM DAERAH MANOKWARI",
+    "address": "JL. SILIWANGI NO.1, MANOKWARI BAR., KABUPATEN MANOKWARI, PAPUA BAR. 98312",
+    "region": "MANOKWARI, PAPUA BARAT",
+    "province": "Papua Barat",
+    "slug": "rsud-manokwari",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/730075_13-3-2020_16-29-17.jpg",
+    "provinceId": 25
+  },
+  {
+    "name": "RS UMUM DAERAH KABUPATEN SORONG",
+    "address": "Kampung Baru SORONG",
+    "region": "SORONG, PAPUA BARAT",
+    "province": "Papua Barat",
+    "slug": "rsud-kabupaten-sorong",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/821019_13-3-2020_16-28-52.jpg",
+    "provinceId": 25
+  },
+  {
+    "name": "RS UMUM DAERAH  ARIFIN ACHMAD",
+    "address": "JL. DIPONEGORO NO.2, SUMAHILANG, KEC. PEKANBARU KOTA, KOTA PEKANBARU, RIAU 28156",
+    "region": "KOTA PEKANBARU, RIAU",
+    "province": "Riau",
+    "slug": "rsud-arifin-achmad",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/119614_4-3-2020_18-47-33.jpg",
+    "provinceId": 26
+  },
+  {
+    "name": "RS UMUM DAERAH  KOTA DUMAI",
+    "address": "JL. TJ. JATI NO.4, BULUH KASAP, DUMAI TIM., KOTA DUMAI, RIAU 28812",
+    "region": "KOTA DUMAI, RIAU",
+    "province": "Riau",
+    "slug": "rsud-kota-dumai",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/66613_4-3-2020_18-45-0.jpg",
+    "provinceId": 26
+  },
+  {
+    "name": "RS UMUM DAERAH PURI HUSADA TEMBILAHAN",
+    "address": "JL. VETERAN NO.52, TEMBILAHAN HILIR, TEMBILAHAN, KABUPATEN INDRAGIRI HILIR, RIAU 29281",
+    "region": "INDRAGIRI HILIR, RIAU",
+    "province": "Riau",
+    "slug": "rsud-puri-husada-tembilahan",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/119594_4-3-2020_18-42-44.jpg",
+    "provinceId": 26
+  },
+  {
+    "name": "RS UMUM DAERAH PROVINSI SULAWESI BARAT",
+    "address": "JL. RE MARTADINATA, SIMBORO, KEC. SIMBORO DAN KEPULAUAN, KABUPATEN MAMUJU, SULAWESI BARAT 91512",
+    "region": "MAMUJU, SULAWESI BARAT",
+    "province": "Sulawesi Barat",
+    "slug": "rsud-provinsi-sulawesi-barat",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/627286_4-3-2020_3-38-1.jpg",
+    "provinceId": 27
+  },
+  {
+    "name": "RSUP DR. WAHIDIN SUDIROHUSODO",
+    "address": "JL. PERINTIS KEMERDEKAAN KM.11 MAKASAR",
+    "region": "KOTA MAKASSAR, SULAWESI SELATAN",
+    "province": "Sulawesi Selatan",
+    "slug": "rsup-dr-wahidin-sudirohusodo",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/749415_4-3-2020_11-56-56.jpg",
+    "provinceId": 28
+  },
+  {
+    "name": "RS DR. TADJUDDIN CHALID, MPH",
+    "address": "JL. PACCERAKKANG NO.67 / PAJJAIANG DAYA MAKASSAR",
+    "region": "KOTA MAKASSAR, SULAWESI SELATAN",
+    "province": "Sulawesi Selatan",
+    "slug": "rs-dr-tadjuddin-chalid",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/98044_4-3-2020_1-2-26.jpg",
+    "provinceId": 28
+  },
+  {
+    "name": "RS UMUM DAERAH LABUANG BAJI",
+    "address": "JL. DR. RATULANGI NO.81 MAKASSAR",
+    "region": "KOTA MAKASSAR, SULAWESI SELATAN",
+    "province": "Sulawesi Selatan",
+    "slug": "rsud-labuang-baji",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/374730_3-3-2020_11-59-43.jpg",
+    "provinceId": 28
+  },
+  {
+    "name": "RS TK.II PELAMONIA",
+    "address": "JL. JEND SUDIRMAN NO.27,MAKASSAR",
+    "region": "KOTA MAKASSAR, SULAWESI SELATAN",
+    "province": "Sulawesi Selatan",
+    "slug": "rs-tk-ii-pelamonia-makassar",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/422840_13-1-2020_14-19-21.jpg",
+    "provinceId": 28
+  },
+  {
+    "name": "RS UMUM DAERAH LAKIPADADA",
+    "address": "JL. PONGTIKU MANDETEK TANA TORAJA",
+    "region": "TANA TORAJA, SULAWESI SELATAN",
+    "province": "Sulawesi Selatan",
+    "slug": "rsud-lakipadada-tana-toraja",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/602246_13-3-2020_16-27-58.jpg",
+    "provinceId": 28
+  },
+  {
+    "name": "RS UMUM DAERAH KABUPATEN SINJAI",
+    "address": "JL. JEND SUDIRMAN NO. 47 SINJAI, SULAWESI SELATAN",
+    "region": "SINJAI, SULAWESI SELATAN",
+    "province": "Sulawesi Selatan",
+    "slug": "rsud-kabupaten-sinjai",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/527036_3-3-2020_11-32-4.jpg",
+    "provinceId": 28
+  },
+  {
+    "name": "RS UMUM DAERAH ANDI MAKKASAU PAREPARE",
+    "address": "JL. NURUSSAMAWATI NO.9 KOTA PAREPARE",
+    "region": "KOTA PARE PARE, SULAWESI SELATAN",
+    "province": "Sulawesi Selatan",
+    "slug": "rsud-andi-makkasau-parepere",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/291654_3-3-2020_11-11-24.jpg",
+    "provinceId": 28
+  },
+  {
+    "name": "RS UMUM DAERAH UNDATA PALU",
+    "address": "JALAN TRANS SULAWESI TONDO, TALISE, MANTIKULORE, KOTA PALU, SULAWESI TENGAH 94119",
+    "region": "KOTA PALU, SULAWESI TENGAH",
+    "province": "Sulawesi Tengah",
+    "slug": "rsud-undata",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/37685_3-3-2020_18-55-45.jpg"
+  },
+  {
+    "name": "RS UMUM ANUTAPURA PALU",
+    "address": "JL. KANGKUNG NO. 1 PALU",
+    "region": "KOTA PALU, SULAWESI TENGAH",
+    "province": "Sulawesi Tengah",
+    "slug": "rs-anutapura-palu",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/304154_26-3-2020_21-45-9.jpg",
+    "provinceId": 29
+  },
+  {
+    "name": "RS UMUM  MOKOPIDO TOLI-TOLI",
+    "address": "JL. LANONI NO.37 KEL BARU KEC BAOLAN KAB TOLI-TOLI, SULTENG",
+    "region": "TOLITOLI, SULAWESI TENGAH",
+    "province": "Sulawesi Tengah",
+    "slug": "rsud-mokopido-tolitoli",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/364019_4-3-2020_1-56-42.jpg",
+    "provinceId": 29
+  },
+  {
+    "name": "RSUP PROF. DR. R. D. KANDOU",
+    "address": "JL. RAYA TANAWANGKO NO.56, MANADO",
+    "region": "KOTA MANADO, SULAWESI UTARA",
+    "province": "Sulawesi Utara",
+    "slug": "rsup-prof-dr-r-d-kandou-manado",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/805681_3-3-2020_20-17-37.jpg",
+    "provinceId": 30
+  },
+  {
+    "name": "RS UMUM DR.SAM RATULANGI",
+    "address": "JL. R. SUPRAPTO NO.123, LUAAN, TONDANO TIM., KABUPATEN MINAHASA, SULAWESI UTARA",
+    "region": "MINAHASA, SULAWESI UTARA",
+    "province": "Sulawesi Utara",
+    "slug": "rsud-dr-sam-ratulangi",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/192489_3-3-2020_20-37-34.jpg",
+    "provinceId": 30
+  },
+  {
+    "name": "RSU RATATOTOK BUYAT",
+    "address": "JL. J.W. LASUT RATATOTOK II KECAMATAN RATATOTOK",
+    "region": "MINAHASA TENGGARA, SULAWESI UTARA",
+    "province": "Sulawesi Utara",
+    "slug": "rsu-ratatotok-buyat",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/710868_4-3-2020_17-35-25.jpg",
+    "provinceId": 30
+  },
+  {
+    "name": "RS UMUM DAERAH KOTA KOTAMOBAGU",
+    "address": "KELURAHAN POBUNDAYAN KECAMATAN KOTAMOBAGU SELATAN",
+    "region": "KOTA KOTAMOBAGU, SULAWESI UTARA",
+    "province": "Sulawesi Utara",
+    "slug": "rsud-kota-kotamobagu",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/36717_4-3-2020_14-46-48.jpg",
+    "provinceId": 30
+  },
+  {
+    "name": "RSUP DR. M. DJAMIL",
+    "address": "JL. PERINTIS KEMERDEKAAN PADANG",
+    "region": "KOTA PADANG, SUMATERA BARAT",
+    "province": "Sumatera Barat",
+    "slug": "rsup-dr-m-djamil-padang",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/671810_2-3-2020_22-37-44.jpg",
+    "provinceId": 31
+  },
+  {
+    "name": "RS UMUM DAERAH DR. ACHMAD MOCHTAR",
+    "address": "JL. DR. ABDUL RIVAI NO.1, BUKIT APIT PUHUN, KEC. GUGUK PANJANG, KOTA BUKITTINGGI, SUMATERA BARAT 26122",
+    "region": "KOTA BUKITTINGGI, SUMATERA BARAT",
+    "province": "Sumatera Barat",
+    "slug": "rsud-dr-achmad-mochtar-bukittinggi",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/601313_2-3-2020_23-1-20.jpg",
+    "provinceId": 31
+  },
+  {
+    "name": "RS UMUM DAERAH SITI FATIMAH",
+    "address": "JL. KOL. H. BURLIAN KM 6",
+    "region": "KOTA PALEMBANG, SUMATERA SELATAN",
+    "province": "Sumatera Selatan",
+    "slug": "rsud-siti-fatimah",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/323770_4-3-2020_17-12-11.jpg",
+    "provinceId": 32
+  },
+  {
+    "name": "RS UMUM PUSAT DR. MOHAMMAD HOESIN PALEMBANG",
+    "address": "JL. JEND. SUDIRMAN NO.KM.3,5, SEKIP JAYA, KEC. KEMUNING, KOTA PALEMBANG, SUMATERA SELATAN 30126",
+    "region": "KOTA PALEMBANG, SUMATERA SELATAN",
+    "province": "Sumatera Selatan",
+    "slug": "rs-dr-mohammad-hoesin-palembang",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/601639_23-1-2020_15-9-5.jpg",
+    "provinceId": 32
+  },
+  {
+    "name": "RS UMUM DAERAH LAHAT",
+    "address": "JL. LETJEND HARUN SOHAR NO.28",
+    "region": "LAHAT, SUMATERA SELATAN",
+    "province": "Sumatera Selatan",
+    "slug": "rsud-lahat",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/705921_3-3-2020_0-47-11.jpg",
+    "provinceId": 32
+  },
+  {
+    "name": "RS DR. RIVAI ABDULLAH",
+    "address": "JL. SUNGAI KUNDUR KELURAHAN MARIANA KEC. BANYUASIN I",
+    "region": "BANYUASIN, SUMATERA SELATAN",
+    "province": "Sumatera Selatan",
+    "slug": "rs-dr-rivai-abdullah",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/422919_4-3-2020_17-27-8.jpg",
+    "provinceId": 32
+  },
+  {
+    "name": "RS UMUM DAERAH KAYUAGUNG",
+    "address": "JL. LINTAS TIMUR LAMPUNG - PALEMBANG, JUA JUA, KEC. KAYU AGUNG, KABUPATEN OGAN KOMERING ILIR, SUMATERA SELATAN 30867",
+    "region": "OGAN KOMERING ILIR, SUMATERA SELATAN",
+    "province": "Sumatera Selatan",
+    "slug": "rsud-kayuagung",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/422919_4-3-2020_17-27-8.jpg",
+    "provinceId": 32
+  },
+  {
+    "name": "RSUP H. ADAM MALIK",
+    "address": "JL. BUNGA LAU NO.17, KEMENANGAN TANI, KEC. MEDAN TUNTUNGAN, KOTA MEDAN, SUMATERA UTARA 20136",
+    "region": "KOTA MEDAN, SUMATERA UTARA",
+    "province": "Sumatera Utara",
+    "slug": "rsup-haji-adam-malik-medan",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/99502_4-3-2020_18-34-26.jpg",
+    "provinceId": 33
+  },
+  {
+    "name": "RS UMUM DAERAH DR. DJASAMEN SARAGIH",
+    "address": "JL SUTOMO NO. 230, PEMATANGSIANTAR",
+    "region": "KOTA PEMATANGSIANTAR, SUMATERA UTARA",
+    "province": "Sumatera Utara",
+    "slug": "rsud-dr-djasamen-saragih-pematangsiantar",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/501391_4-3-2020_18-36-42.jpg",
+    "provinceId": 33
+  },
+  {
+    "name": "RS UMUM DAERAH KABANJAHE",
+    "address": "Jl. Selamat Ketaren, Lau Cimba, ",
+    "region": "KARO, SUMATERA UTARA",
+    "province": "Sumatera Utara",
+    "slug": "rs-kabanjahe",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/425900_4-3-2020_18-22-13.jpg",
+    "provinceId": 33
+  },
+  {
+    "name": "RS UMUM DAERAH PADANG SIDEMPUAN",
+    "address": "JL DR. F.L. TOBING NO. 10,PADANGSIDIMPUAN",
+    "region": "KOTA PADANG SIDIMPUAN, SUMATERA UTARA",
+    "province": "Sumatera Utara",
+    "slug": "rs-padang-sidempuan",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/44214_4-3-2020_18-49-22.jpg",
+    "provinceId": 33
+  },
+  {
+    "name": "RS UMUM DAERAH TARUTUNG",
+    "address": "JL AGUS SALIM NO. 1 TARUTUNG",
+    "region": "TAPANULI UTARA, SUMATERA UTARA",
+    "province": "Sumatera Utara",
+    "slug": "rsud-tarutung",
+    "images": "https://d1ojs48v3n42tp.cloudfront.net/provider_location_banner/44214_4-3-2020_18-49-22.jpg",
+    "provinceId": 33
+  }
+]
