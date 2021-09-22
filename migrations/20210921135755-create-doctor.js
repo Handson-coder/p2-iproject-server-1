@@ -41,7 +41,18 @@ module.exports = {
         type: Sequelize.STRING
       },
       post_salutation: {
+        allowNull: false,
         type: Sequelize.STRING
+      },
+      SpecialistId: {
+        allowNull: false,
+        type: Sequelize.INTEGER,
+        references: {
+          model: 'Specialists',
+          key: 'id'
+        },
+        onUpdate: 'cascade',
+        onDelete: 'cascade'
       },
       createdAt: {
         allowNull: false,

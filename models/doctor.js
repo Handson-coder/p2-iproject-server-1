@@ -11,6 +11,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      Doctor.belongsTo(models.Specialist,  { foreignKey: 'SpecialistId' })
     }
   };
   Doctor.init({
@@ -86,6 +87,14 @@ module.exports = (sequelize, DataTypes) => {
         notNull: { msg: 'Post Salutation is required'}
       }
     },
+    SpecialistId: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      validate : {
+        notEmpty: { msg: 'SpecialistId Salutation is required'},
+        notNull: { msg: 'SpecialistId Salutation is required'}
+      }
+    }
   }, {
     sequelize,
     modelName: 'Doctor',
