@@ -1,20 +1,27 @@
 [
   {
-    "name": "Kebidanan Kandungan"
+    "name": "Kebidanan Kandungan",
+    "images": "https://pngimage.net/wp-content/uploads/2018/06/gravidez-png-6.png"
   },
   {
-    "name": "Anak"
+    "name": "Anak",
+    "images": "https://emojigraph.org/media/google/boy-light-skin-tone_1f466-1f3fb.png"
+
   },
   {
-    "name": "Penyakit Dalam"
+    "name": "Penyakit Dalam",
+    "images": "https://rsamcmuhammadiyah.com/wp-content/uploads/2021/06/cardiac.jpeg"
   },
   {
-    "name": "Jantung dan Pembuluh Darah"
+    "name": "Jantung dan Pembuluh Darah",
+    "images": "https://thumbs.dreamstime.com/b/isolerad-anatomisk…muskul%C3%B6st-organ-i-m%C3%A4nniska-81075329.jpg"
   },
   {
-    "name": "Saraf"
+    "name": "Saraf",
+    "images": "https://d1bpj0tv6vfxyp.cloudfront.net/articles/602345_7-5-2021_11-4-48.jpeg"
   },
   {
-    "name": "Bedah"
+    "name": "Bedah",
+    "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ50wyOc1Nnmn-t8vXqkbwfPNc8L2jGlU5BdAmuTMlkm_E549BarD8I5KdWTroNHN3cVY&usqp=CAU"
   }
 ]

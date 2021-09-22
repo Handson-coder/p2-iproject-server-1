@@ -22,6 +22,14 @@ module.exports = (sequelize, DataTypes) => {
         notNull: { msg: 'Name is required' },
         notEmpty: { msg: 'Name is required' },
       }
+    },
+    images: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        notNull: { msg: 'Images is required' },
+        notEmpty: { msg: 'Images is required' },
+      }
     }
   }, {
     sequelize,

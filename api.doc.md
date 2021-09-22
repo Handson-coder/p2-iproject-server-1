@@ -720,7 +720,7 @@ _Response (500 - Internal Server Error)_
 
 ---
 
-### GET /doctors
+### GET /doctors/specialist/:id
 
 _Request Header_
 
@@ -731,13 +731,13 @@ not needed
 _Request Body_
 
 ```
-not needed
+not needer
 ```
 
 _Request Params_
 
 ```
-not needed
+"req.params.id" : "<id to get insert into>"
 ```
 
 _Response (200)_
@@ -754,7 +754,13 @@ _Response (200)_
     "provider_locations": "RS Citra Husada Pidie Aceh",
     "specialities": "Kebidanan Kandungan",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.OG"
+    "post_salutation": "Sp.OG",
+    "SpecialistId": 1,
+    "Specialist": {
+      "id": 1,
+      "name": "Kebidanan Kandungan",
+      "images": "https://pngimage.net/wp-content/uploads/2018/06/gravidez-png-6.png"
+    }
   },
   {
     "id": 2,
@@ -766,7 +772,13 @@ _Response (200)_
     "provider_locations": "RS Aulia Pekanbaru",
     "specialities": "Kebidanan Kandungan",
     "pre_salutation": "dr.",
-    "post_salutation": "Sp.OG"
+    "post_salutation": "Sp.OG",
+    "SpecialistId": 1,
+    "Specialist": {
+      "id": 1,
+      "name": "Kebidanan Kandungan",
+      "images": "https://pngimage.net/wp-content/uploads/2018/06/gravidez-png-6.png"
+    }
   },
   ...
 ]
@@ -1073,11 +1085,13 @@ _Response (200)_
 [
   {
     "id": 1,
-    "name": "Kebidanan Kandungan"
+    "name": "Kebidanan Kandungan",
+    "images": "https://pngimage.net/wp-content/uploads/2018/06/gravidez-png-6.png"
   },
   {
     "id": 2,
-    "name": "Anak"
+    "name": "Anak",
+    "images": "https://emojigraph.org/media/google/boy-light-skin-tone_1f466-1f3fb.png"
   },
   ...
 ]

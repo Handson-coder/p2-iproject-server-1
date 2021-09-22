@@ -1,6 +1,6 @@
 const axios = require('axios')
 const ROOT_URL = `https://www.halodoc.com`
-const { Doctor } = require('../models')
+const { Doctor, Specialist } = require('../models')
 
 class ControllerDoctor {
 	static async doctorProfile(req, res, next) {
@@ -12,12 +12,22 @@ class ControllerDoctor {
 			next(err)
 		}
 	}
-	static async findAllDoctors(req, res, next) {
+	static async findOneDoctor(req, res, next) {
+		const { id } = req.params	
 		try {
 			const result = await Doctor.findAll({
+				where: { SpecialistId: +id },
 				attributes: {
 					exclude: ['createdAt', 'updatedAt']
-				}
+				},
+				include: [
+					{
+						model: Specialist,
+						attributes: {
+							exclude: ['createdAt', 'updatedAt']
+						},
+					}
+				]
 			})
 			res.status(200).json(result)
 		} catch (err) {
