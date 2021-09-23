@@ -24,6 +24,9 @@ module.exports = function (err, req, res, next) {
 	} else if (err.name === 'Data not found') {
 		code = 404
 		message = "Data not found"
+	} else if (err.name === 'Forbidden') {
+		code = 403
+		message = "Only For Customer"
 	} else if (err.name === "There's no data is equal like your filter that you've submited") {
 		code = 404
 		message = "There's no data is equal like your filter that you've submited"

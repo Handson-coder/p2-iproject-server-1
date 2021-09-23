@@ -294,7 +294,7 @@ _Response (500 - Internal Server Error)_
 _Request Header_
 
 ```
-not needed
+"access_token": "<access_token>"
 ```
 
 _Request Body_
@@ -357,7 +357,7 @@ _Response (500 - Internal Server Error)_
 _Request Header_
 
 ```
-not needed
+"access_token": "<access_token>"
 ```
 
 _Request Body_
@@ -463,7 +463,7 @@ _Response (500 - Internal Server Error)_
 _Request Header_
 
 ```
-not needed
+"access_token": "<access_token>"
 ```
 
 _Request Body_
@@ -542,7 +542,7 @@ _Response (500 - Internal Server Error)_
 _Request Header_
 
 ```
-not needed
+"access_token": "<access_token>"
 ```
 
 _Request Body_
@@ -621,7 +621,7 @@ _Response (500 - Internal Server Error)_
 _Request Header_
 
 ```
-not needed
+"access_token": "<access_token>"
 ```
 
 _Request Body_
@@ -772,7 +772,7 @@ _Response (500 - Internal Server Error)_
 _Request Header_
 
 ```
-not needed
+"access_token": "<access_token>"
 ```
 
 _Request Body_
@@ -1111,7 +1111,7 @@ _Response (500 - Internal Server Error)_
 _Request Header_
 
 ```
-not needed
+"access_token": "<access_token>"
 ```
 
 _Request Body_
@@ -1142,6 +1142,63 @@ _Response (200)_
   },
   ...
 ]
+```
+
+_Response (500 - Internal Server Error)_
+
+```
+{
+  "message": "Internal Server Error"
+}
+```
+
+---
+
+### Post /nodemailer
+
+_Request Header_
+
+```
+"access_token": "<access_token>"
+```
+
+_Request Params_
+
+```
+"to": "<req.user.email>"
+```
+
+_Request Body_
+
+```
+{
+  "username": "<string>",
+  "doctor": "<string>"
+}
+```
+
+_Response (200 - success)_
+
+```
+{
+    "message": "Email Sent, Please check your email inbox"
+}
+```
+
+_Response (401 - Unauthorized)_
+
+```
+{
+  "message": "Please Login First"
+}
+```
+
+_Response (403 - Forbidden)_
+
+```
+{
+  "message": "Only For Customer"
+}
 ```
 
 _Response (500 - Internal Server Error)_
