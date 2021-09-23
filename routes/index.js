@@ -7,7 +7,7 @@ const routerCovid = require('./routerCovid')
 const routerProvince = require('./routerProvince')
 const routerUser = require('./routerUser')
 const routerSpecialist = require('./routerSpecialist')
-const routerNodeMailer = require('./routerNodeMailer')
+const routerNodemailer = require('./routerNodemailer')
 const errorHandler = require('../middlewares/errorHandler')
 
 router.use('/medicines', routerMedicine)
@@ -18,7 +18,7 @@ router.use('/covid19/stats', routerCovid)
 router.use('/provinces', routerProvince)
 router.use('/users', routerUser)
 router.use('/specialists', routerSpecialist)
-router.use('/nodemailer', routerNodeMailer)
+router.use('/nodemailer', routerNodemailer)
 
 router.use(errorHandler)
 
