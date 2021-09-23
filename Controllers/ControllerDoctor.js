@@ -12,7 +12,7 @@ class ControllerDoctor {
 			next(err)
 		}
 	}
-	static async findOneDoctor(req, res, next) {
+	static async findAllDoctor(req, res, next) {
 		const { id } = req.params	
 		try {
 			const result = await Doctor.findAll({
